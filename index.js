@@ -2,4 +2,4 @@ var express = require('express');
 var server = express();
 
 server.use('/', express.static(__dirname + '/home'));
-server.listen(8080);
+server.listen(process.env.PORT || 3000);
