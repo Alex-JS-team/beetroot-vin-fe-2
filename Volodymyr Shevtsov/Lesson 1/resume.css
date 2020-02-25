@@ -1,0 +1,16 @@
+.foto {float:left;}
+.description {justify-content: space-between}
+#arrowpointer{
+    list-style-type:"\27A4"
+}
+b,h2{color: black;}    
+section {
+background: #FDEAA8;
+color: #808080;
+border-radius: 1em;
+padding: 1em;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%) }
