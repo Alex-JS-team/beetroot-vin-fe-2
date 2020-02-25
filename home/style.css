@@ -1,0 +1,24 @@
+.data {
+    float: left;
+}
+.foto {
+    float: left;
+}
+.cent{
+    text-align: center;
+}
+.lang{
+    list-style: none;
+}
+.content{
+    height: 10em;
+    position: relative;
+}
+.conten{
+    margin: 0;;
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
