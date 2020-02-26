@@ -1,16 +1,43 @@
-.foto {float:left;}
-.description {justify-content: space-between}
+.photo {
+    min-width: width 230px;
+    float:left;
+    margin-left: 1em;
+}
+.description {
+    float: left;
+    padding-left:  1em;    
+}
+.content{
+    clear: left;
+    padding-left: 1em;
+}
 #arrowpointer{
     list-style-type:"\27A4"
 }
-b,h2{color: black;}    
+#nopointer{
+    list-style-type: none;
+}
+b{
+    letter-spacing: normal;
+    color: black;
+    font-family: 'Merriweather';
+
+}
+h2{
+    letter-spacing: normal;
+    color: black;
+}
+a{
+    text-decoration: none;
+    
+}
 section {
+line-height: 180%;
+letter-spacing: 0.07em;
 background: #FDEAA8;
-color: #808080;
+color: #45161C;
 border-radius: 1em;
 padding: 1em;
-position: absolute;
-top: 50%;
-left: 50%;
-margin-right: -50%;
-transform: translate(-50%, -50%) }
+position: relative;
+margin 30%;
+}
