@@ -1,0 +1,24 @@
+div {
+    width: 150px;
+    height: 150px;
+}
+
+.border-blue {
+    border-color: blue;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+.border-green {
+    border: 3px dotted green;
+}
+
+.border-red {
+    border-top: 2px double red;
+    border-left: 2px double red;
+}
+
+.round {
+    border: 1px solid black;
+    border-radius: 50%;
+}
