@@ -1,0 +1,59 @@
+
+.head{
+    background-color: brown;
+    color: white;
+}
+.head h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.image img{
+    height: 300px;
+    max-width: 1300px;
+}
+.first_text{
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+}
+.first_text p{
+    width: 1300px;
+}
+span{
+    color: blue;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.icones img{
+    margin: 3px;
+    border-bottom: 3px dotted black;
+}
+.second_text{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+.second_text p {
+    width: 1300px;
+}
+
+
+
+.foter{
+    background-color: black;
+    color: white;
+}
+.foter h3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
