@@ -1,0 +1,36 @@
+
+.easy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 770px;
+}
+.header {
+    background-color: rgb(166, 37, 37);
+    text-align: center;
+    color: white;
+}
+.lorem-txt {
+    margin: 10px 0px;
+    
+}
+.color-txt {
+    display: inline;
+    color: rgb(19, 14, 255);
+}
+.cars {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.car-img {
+    margin: 0px 2px;
+}
+.car-img img {
+    border: 3px dashed black;
+}
+.footer {
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
