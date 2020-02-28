@@ -10,6 +10,7 @@
     color: white;
 }
 .lorem-txt {
+    font-size: 18px;
     margin: 10px 0px;
     
 }
@@ -29,6 +30,7 @@
     border: 3px dashed black;
 }
 .footer {
+    font-size: 20px;
     margin-top: 25px;
     color: white;
     background-color: black;
