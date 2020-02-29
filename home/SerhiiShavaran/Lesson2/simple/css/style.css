@@ -8,14 +8,14 @@
     margin-left: 8px;
     color: white;
 }
-.imgsunset{
+.imgSunset{
     margin: 22px 19px 22px 8px;
 }
 .text{
     font-size: 18px;
     margin-left: 8px;
 }
-.colortext {
+.colorText {
     display: inline;
     color: #130eff;
 }
@@ -24,10 +24,10 @@
     justify-content: center;
     margin: 18px 0px 20px 0px;
 }
-.carimg {
+.carImg {
     margin: 0px 2px;
 }
-.carimg img {
+.carImg img {
     border: 3px dashed black;
 }
 .footer {
