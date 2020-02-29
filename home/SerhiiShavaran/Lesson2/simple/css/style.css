@@ -1,0 +1,39 @@
+.main{
+    margin: 0px auto 0px auto;
+    width: 786px;
+}
+.header{
+    background-color: #a62525;
+    text-align: center;
+    margin-left: 8px;
+    color: white;
+}
+.imgsunset{
+    margin: 22px 19px 22px 8px;
+}
+.text{
+    font-size: 18px;
+    margin-left: 8px;
+}
+.colortext {
+    display: inline;
+    color: #130eff;
+}
+.cars {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0px 20px 0px;
+}
+.carimg {
+    margin: 0px 2px;
+}
+.carimg img {
+    border: 3px dashed black;
+}
+.footer {
+    font-size: 20px;
+    margin: 37px 0px 0px 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
