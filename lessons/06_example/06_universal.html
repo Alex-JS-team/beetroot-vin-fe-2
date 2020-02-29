@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Universal selector</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        p {
+            color: red;
+        }
+
+        #identificator {
+            color: green;
+        }
+
+        ul li {
+            color: blue;
+        }
+
+        p.class {
+            font-size: 18px;
+        }
+
+        p,
+        li {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Заголовок</h1>
+    <p class="class">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste recusandae consequuntur ab quidem, quae
+        praesentium natus. Omnis amet fugiat asperiores suscipit repudiandae. Optio
+        voluptatem dolore, dicta deserunt dolorem delectus adipisci.
+    </p>
+    <ul id="list">
+        <li id="identificator">1</li>
+        <li class="class">2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste recusandae consequuntur ab quidem, quae
+        praesentium natus. Omnis amet fugiat asperiores suscipit repudiandae. Optio
+        voluptatem dolore, dicta deserunt dolorem delectus adipisci.
+    </p>
+
+</body>
+
+</html>
