@@ -1,0 +1,23 @@
+h1{
+    background-color: #A52A2A;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+body{
+    width: 759px;
+}
+a{
+    text-decoration: none;
+}
+div{
+    margin-left: 20%;
+   }
+div img{
+    border: 4px dashed black;
+}
