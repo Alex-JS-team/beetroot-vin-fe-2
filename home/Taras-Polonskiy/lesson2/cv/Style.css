@@ -1,0 +1,57 @@
+body{
+    margin:0;
+}
+
+.container_1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #525ea7;
+}
+
+.name{
+    font-family: Montserrat Bold;
+    font-size: 24pt;
+    color:#ffffff;
+}
+
+.position{
+    font-family: Open Sans;
+    font-size: 14pt;
+    color:#ffffff;
+}
+
+.text_1 {
+    font-family: Open Sans;
+    font-size: 12pt;
+    color:#ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration:none;
+    font-family: Open Sans;
+    color:#ffffff;
+}
+
+.container_2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container_2{
+    margin-left:15px;
+}
+
+
+.text_2{
+    font-family: Open Sans;
+    font-size: 14pt;
+    color:#000000;
+}
+
+.text_2_2{
+    font-family: Open Sans;
+    font-size: 18pt;
+    color:#525ea7; 
+}
