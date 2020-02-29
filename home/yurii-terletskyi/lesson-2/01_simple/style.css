@@ -17,7 +17,7 @@
     display: inline;
     color: blue;
 }
-.carimg {
+.car-img {
     display: flex;
     justify-content: center;
     margin: 10px 0px;
@@ -25,7 +25,7 @@
 .carimg1 {
     margin: 0px 2px;
 }
-.carimg1 img {
+.car-img1 img {
     border: 3px dashed black;
 }
 .footer {
