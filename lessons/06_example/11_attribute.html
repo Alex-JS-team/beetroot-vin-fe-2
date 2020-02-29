@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Attribute selector</title>
+    <style>
+        [type] {
+            border: 2px solid red;
+        }
+        [type="text"] {
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+        <label for="name">What is your name?</label> <br>
+        <input type="text" name="registration_login" id="name">
+        <br>
+        <label for="email">Exnter email</label> <br>
+        <input type="email" name="registration_email" id="email">
+        <br>
+        <label for="password">Create a password</label> <br>
+        <input type="password" name="registration_password" id="password">
+        <br>
+        <label for="passwordConfirm">Confirm a password</label> <br>
+        <input type="password" name="registration_password_confirm" id="passwordConfirm">
+</body>
+</html>
