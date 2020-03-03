@@ -1,0 +1,107 @@
+body{
+    
+    background-color: #464f54;
+}
+.container{   
+    position: absolute;
+    
+    height: 265px;
+    float: right;
+    width: 100%;
+    margin-top: -105px;
+    margin-left: 325px;
+    
+    padding: 0;
+    }
+.container div p{
+ margin:0;
+ padding-left: 60px;
+
+}
+.container hr{
+    margin-left: 60px;
+}
+.container div:first-child{
+     height: 190px;
+     color: blanchedalmond;
+     background-color: black;
+
+
+}
+.container div:first-child p:first-child{
+    padding-top: 48px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #777777;
+}
+.container span{
+    display: inline-block;
+    width: 2px;
+  height: 43px;
+  background-color: rgb(237, 239, 242);
+
+}
+.container div p+p{
+    padding-top: 12px;
+    text-transform: capitalize;
+    font-size: 48px;
+    color: #fefefe;
+    font-family: 'Playfair Display', serif;
+
+
+}
+.menu{
+    position: relative;
+    height: 80px;
+    background-color: #f4ba2c;
+    margin-left: 65px;
+}
+.menu img{
+    position: absolute;
+    margin-left: 40px;         
+   top: 50%;                        
+   transform: translate(0, -50%)
+  
+  
+}
+
+
+section{
+    width: 1060px;
+    height: 750px;
+    font-family: Georgia;   
+    background-color:white;
+    margin: 150px auto 0;
+    padding: 200px 130px;
+    text-align: justify;
+}
+
+
+    
+p{
+    font-size:  27px;
+    margin-bottom: 60px;
+    
+}
+section p:first-child{
+    font-family: "Proxima Nova";
+    text-transform: uppercase;
+    font-size: 19.8;
+    margin-bottom: 50px;
+    color: #b4b4b4;
+}
+h2{
+    margin-bottom: 20px;
+    font: 78px bold;
+    font-family: "FuturaPT";
+    text-transform: uppercase;
+}
+section>h2+p{
+    font-size: 30px;
+    font-style: italic;
+    color: #8f8f8f;
+    margin-bottom: 60px;
+}
+p>span{
+    font-style: italic;
+}

@@ -1,0 +1,53 @@
+body{
+    padding: 270px 225px 250px;
+    font-size: 18px;
+    font-family: "Lato";
+}
+h1{ font-weight: lighter;
+    font-size: 42px;
+    font-family: "PlayfairDisplay";  
+}
+.big{
+    font-family: "PlayfairDisplay";
+    display: block;
+    float: left;
+    font-size: 110px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    line-height: 90px;  
+}
+
+p{  margin-bottom: 55px;
+    line-height:34px;
+    opacity: .7;
+}
+.end{
+    margin-bottom: 40px;
+    opacity: .7;
+    font-size: 24px;
+}
+q {
+    font-size: 60px;   
+    quotes: "\201c" "";
+}
+q::before {
+    content: open-quote;
+}
+q::after {
+    content: no-close-quote;
+}
+div{
+  line-height: 64px;
+  text-align: center;
+  border-width: 2px;
+  border-color: rgb(234, 162, 88);
+  border-style: solid;
+  width: 260px;
+  height: 64px;
+  font-size: 18px;
+  font-family: "Lato";
+  color: rgb(234, 162, 88);
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
