@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    background-color: #990909;
+    color: white;
+}
+/*top horinontal menu*/    
+
+nav{
+    justify-content: space-around;
+    position: absolute;
+    left: 1em;
+    right: 1em;
+    background-color: black;
+}
+.menu figure{
+    display: inline-block;
+    position: relative;
+}
+.menu figcaption{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+/*leftbar*/
+.leftbar{
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 300px; 
+    background-color: #7D0909;
+}
+a{
+    color: #E95B11;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+li{
+    padding-bottom: 20px;
+}
+#leftbar-bottom{
+    padding-bottom: 60px;
+}
+/*footer*/
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    background-color: #E95B11;
+}
+/*article*/
+article{
+    float: left;
+    width: 65%;
+    position: relative;
+    text-align: left;
+    padding-left: 5px;
+    
+}
+/*rightbar*/
+.rigthbar{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: blanchedalmond;
+    color: grey;
+}
+.rigthbar p{
+    border-top: 2px solid #ccc; 
+    margin-top: 20px; 
+    padding-top: 10px;
+}
+.rigthbar header{
+    background-color: #BDBDBD;
+    font-weight: bold;
+    color: black;
+}
+/*organize 2nd row of containers*/
+.secondrow{
+    position: absolute;
+    top: 270px;
+    justify-content: space-around;
+}
