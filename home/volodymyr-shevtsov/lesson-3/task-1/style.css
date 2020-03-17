@@ -16,7 +16,6 @@ h1{ font-weight: lighter;
     padding-bottom: 10px;
     line-height: 90px;  
 }
-
 p{  margin-bottom: 55px;
     line-height:34px;
     opacity: .7;
@@ -26,9 +25,9 @@ p{  margin-bottom: 55px;
     opacity: .7;
     font-size: 24px;
 }
-q {
-    font-size: 60px;   
-    quotes: "\201c" "";
+q{
+   font-size: 60px;   
+   quotes: "\201c" "";
 }
 q::before {
     content: open-quote;
@@ -49,5 +48,4 @@ div{
   color: rgb(234, 162, 88);
   font-weight: bold;
   text-transform: uppercase;
-
 }

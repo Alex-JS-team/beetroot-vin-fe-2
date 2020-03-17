@@ -5,14 +5,12 @@ body{
 }
 .header{
     color: white;
-
 }
 .header h1{
     display: inline-block;
     position: relative;
     margin-bottom: 25px;   
-    font: bold 90px  'Raleway', serif;
-    
+    font: bold 90px  'Raleway', serif;    
 }
 .header p{
     display:block;
@@ -21,15 +19,13 @@ body{
     margin-top: 25px;
     font: lighter 17px 'Raleway', serif;
 }
-
 .header span{
     display: block;
     position:absolute;
     margin-top: -100px;
     margin-left: 5px;
     opacity: 0%;
-    }
-
+}
 .content{
     display: flex;
     margin-left: auto;
@@ -44,12 +40,12 @@ body{
 }
 .mono_content::after{
     content: "";
- position: absolute;
- left: 0;
- bottom: 0; 
- width: 100%;  
- height:40%;
- background-image: linear-gradient(to top, black, transparent);
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    width: 100%;  
+    height:40%;
+    background-image: linear-gradient(to top, black, transparent);
 }
 .mono_content:nth-child(1){
     background: url(images/bg_1.png);
@@ -84,13 +80,11 @@ body{
     left: 25px;
     color: white;
     height: 105px;
-    text-align: left;
-    
+    text-align: left;    
 }
 .title span:nth-child(1){
     font-size: 20px;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 .title span:nth-child(3){
     display: inline-block;
@@ -115,4 +109,5 @@ body{
 }
 .button:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    cursor: pointer;
 }

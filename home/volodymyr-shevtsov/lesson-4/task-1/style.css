@@ -11,7 +11,6 @@
     font-weight: lighter;
 }
 .wrapper{
-
     display: flex;
     margin: 10px auto;
     height: 290px;
@@ -39,8 +38,7 @@
     font-size: 30px;
     color: white;
     margin-bottom: 20px;
-    border: 2px white;
-       
+    border: 2px white;      
 }
 .button:hover{
     background-color: white;

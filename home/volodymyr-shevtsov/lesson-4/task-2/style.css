@@ -3,9 +3,6 @@
     src: url(TrebuchetMS.woff);
     font-weight: normal;
 }
-
-
-
 *{
     font-family: Trebuchet, Arial, sans-serif;
     transition: all .1s ease-in;
@@ -13,7 +10,6 @@
 .wrapper{
     margin: 5px;
     background-color: #3B3F45;
-
 }
 header{
     height: 10%;
@@ -45,7 +41,6 @@ li{
     padding-left: 0.6em;
     background-color: #88839E;
 }
-
 label:nth-child(2n) li{
     background-color:#7A7593;
 }
