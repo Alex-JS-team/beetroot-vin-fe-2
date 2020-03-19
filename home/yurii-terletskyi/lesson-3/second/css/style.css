@@ -1,0 +1,84 @@
+@font-face{
+    font-family: 'ProximaNovaReg';
+    src: url(../font/Proxima\ Nova\ Regular.otf);
+}
+@font-face{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    src: url(../font/georgia.ttf);
+}
+@font-face{
+    font-family: 'FuturaPT Heavy';
+    src: url(../font/FuturaPT-Heavy.ttf);
+}
+body{
+    background-image: url(../img/MainBackground.png);
+    position: relative;
+}
+.content{
+    width: 1060px;
+    height: 1100px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    box-shadow: 0 0 20px black;
+}
+.title1{
+    color: #b4b4b4;
+    font-family: "ProximaNovaReg";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.title2{
+font-size: 55px;
+font-weight: 900;
+text-transform: uppercase;
+font-family: 'FuturaPT Heavy';
+}
+.title3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    color: #8f8f8f;
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: black;
+    padding-right: 15px;
+}
+.header{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 350px;
+}
+.item{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header{
+    position: relative;
+}
+.bg-head{
+    position: absolute;
+    top: 78px;
+    left: 135px;
+}
+.htitle1{
+    color:grey;
+    font-family: 'ProximaNovaReg';
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.htitle2{
+    color: white;
+    font-size: 48px;
+}

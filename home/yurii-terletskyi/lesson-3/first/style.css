@@ -1,0 +1,65 @@
+.page{
+    background-image: url(img/Rectangle1.png);
+    display: flex;
+    justify-content: center;
+    padding: 115px 80px;
+}
+.content{
+    background-image: url(img/Body.png);
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 940px;
+    padding: 140px 138px 120px 121px;    
+}
+.text-top{
+     font-family: "Playfair Display", serif;
+    font-size: 42pt;
+    font-weight: 400;
+    color: #171717;
+    text-align: left;
+    margin-left: 2px;
+    margin-bottom: 39px;}
+
+    .text{
+    font-family: "Lato", serif;
+    font-size: 18pt;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #7b7b7b;
+    text-align: left;
+    }
+    .text::first-letter {
+        font-family: "Playfair Display", serif;
+        font-size: 110pt;
+        color: black;
+        font-weight: normal;
+        float: left;
+        letter-spacing: 40px;
+        line-height: 90px;    
+    }
+    p {
+        font-weight: 300;
+        font-size: 22pt;
+        font-style: italic;
+        position: relative;
+    }
+    p::before {
+        content: "“";
+        position: absolute;
+        left: -40px;
+        top: -55px;
+        font-size: 55pt;
+    }
+.f.button{
+    background-image: url(img/Button.png);
+    width: 265px;
+    height: 68px;
+    color: #eaa258;
+    background-color: #fff;
+    border: 2px solid #eaa258;
+    font-family: "Lato", serif;
+    font-size: 14pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
