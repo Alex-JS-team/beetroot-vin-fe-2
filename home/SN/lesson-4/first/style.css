@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+.block-items {
+    margin: 0 auto;
+    width: 12%;
+    text-align: center;
+}
+.block-img {
+    margin: 30px auto;
+    width: 40px;
+    height: 40px;
+    background-color: #1275b9;
+    border-radius: 50%;
+    border: 1px solid #1275b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-img:hover {
+    background-color: white;
+    transition: all .3s ease-in;
+}
