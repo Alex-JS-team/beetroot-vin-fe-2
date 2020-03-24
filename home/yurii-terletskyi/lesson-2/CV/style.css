@@ -1,0 +1,46 @@
+span{
+    color: darkred;
+}
+b{color:dimgray;}
+li{color:darkslategray;}
+.avatar{
+    border: 4px double black; 
+    background: ghostwhite;
+    padding: 10px; 
+    position: absolute;
+    left: 20px;
+}
+
+.info{
+    border: 4px double black; 
+    background: ghostwhite;
+    padding: 10px; 
+    position: absolute;
+    left: 290px;
+}
+.info2{
+    border: 4px double black;
+    background: ghostwhite;
+    padding: 10px; 
+    position: absolute;
+    left: 320px;
+    top: 130px;
+}
+.info3{
+    border: 4px double black;
+    background: ghostwhite;
+    padding: 10px; 
+    position: absolute;
+    left: 260px;
+    top: 250px;
+}
+.link{
+    border: 4px double black; 
+    background: ghostwhite;
+    padding: 10px; 
+    position: absolute;
+    left: 30px;
+    top: 350px;
+}
+.top-center{margin:0 auto; position: relative;}
+
