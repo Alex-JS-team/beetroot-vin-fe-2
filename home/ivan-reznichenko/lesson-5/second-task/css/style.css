@@ -1,0 +1,101 @@
+.outer {
+    background-color: #f6f6f6;
+    padding-top: 108px;
+}
+.title {
+    position: relative;
+    text-align: center;
+    color: #3c3c3c;
+    font-family: "Lato";
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+.line {
+    width: 45px;
+    height: 4px;
+    background-color: #dddbdb;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.subtitle {
+    width: 560px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #3c3c3c;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.persons {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.person {
+    margin: 0 15px;
+}
+.photo {
+    position: relative;
+}
+.photo::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00aed9;
+    opacity: 0;
+    
+}
+.social {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.social>i {
+    position: relative;
+    color: white;
+    font-size: 24px;
+    width: 42px;
+    height: 42px;
+    background-color: rgba(255 , 255, 255, 0.3)
+}
+.social>i::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.photo:hover .social {
+    opacity: 1;
+    transition: all .7s ease-in;
+    
+}
+.photo:hover::before{
+    opacity: 0.9;
+    transition: all .4s ease-in;
+}
+.photo:hover img {
+    opacity: 0;
+    transition: all .4s ease-in;
+}
+.p-title {
+    margin-top: 20px;
+    color: #282528;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+}
+.p-subtitle {
+    color: #282528;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
