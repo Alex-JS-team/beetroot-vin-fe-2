@@ -1,32 +1,26 @@
 body{
-    
     background-color: #464f54;
 }
 .container{   
-    position: absolute;
-    
+    position: absolute;    
     height: 265px;
     float: right;
     width: 100%;
     margin-top: -105px;
-    margin-left: 325px;
-    
+    margin-left: 325px;    
     padding: 0;
-    }
+}
 .container div p{
  margin:0;
  padding-left: 60px;
-
 }
 .container hr{
     margin-left: 60px;
 }
 .container div:first-child{
-     height: 190px;
-     color: blanchedalmond;
-     background-color: black;
-
-
+    height: 190px;
+    color: blanchedalmond;
+    background-color: black;
 }
 .container div:first-child p:first-child{
     padding-top: 48px;
@@ -37,9 +31,8 @@ body{
 .container span{
     display: inline-block;
     width: 2px;
-  height: 43px;
-  background-color: rgb(237, 239, 242);
-
+    height: 43px;
+    background-color: rgb(237, 239, 242);
 }
 .container div p+p{
     padding-top: 12px;
@@ -47,8 +40,6 @@ body{
     font-size: 48px;
     color: #fefefe;
     font-family: 'Playfair Display', serif;
-
-
 }
 .menu{
     position: relative;
@@ -60,12 +51,8 @@ body{
     position: absolute;
     margin-left: 40px;         
    top: 50%;                        
-   transform: translate(0, -50%)
-  
-  
+   transform: translate(0, -50%);  
 }
-
-
 section{
     width: 1060px;
     height: 750px;
@@ -75,13 +62,9 @@ section{
     padding: 200px 130px;
     text-align: justify;
 }
-
-
-    
 p{
     font-size:  27px;
     margin-bottom: 60px;
-    
 }
 section p:first-child{
     font-family: "Proxima Nova";

@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'Trebuchet MS';
+    src: url(TrebuchetMS.woff);
+    font-weight: normal;
+}
+*{
+    font-family: Trebuchet, Arial, sans-serif;
+    transition: all .1s ease-in;
+}
+.wrapper{
+    margin: 5px;
+    background-color: #3B3F45;
+}
+header{
+    height: 10%;
+    width: inherit;
+    background-color: #4A4F56;
+    color: #EB7E7F;
+    text-align: center;
+    padding:10px;
+}
+header p{
+    font-size: 1.5em;   
+}
+header h1+p{
+    margin: 0;
+}
+section{
+    margin: 1em 25% 1em;
+    font-size: 1.5em;
+    padding-bottom: 2em;
+    color: white;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    padding-top: .6em;
+    padding-bottom: .6em;
+    padding-left: 0.6em;
+    background-color: #88839E;
+}
+label:nth-child(2n) li{
+    background-color:#7A7593;
+}
+label li:active{
+    background-color: darkred;
+}
+input:checked+span{
+    color: #A29CAD;
+    text-decoration: line-through;
+}
+input[id]{
+    margin-right: 10px;
+}
+.info{
+    font-size: 0.6em;
+    padding-left: 1em;
+    color: #C5BDC7;
+}
+.info::before{
+    content: "(";
+}
+.info::after{
+    content: ")";
+}
+.footer{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #EB7E7F;
+    width: 100%;
+    background-color: #4A4F56;
+}
+li:hover{
+    background-color: #625E77;
+    border: 2px  solid white;
+    border-left: none;
+    border-right: none;
+}

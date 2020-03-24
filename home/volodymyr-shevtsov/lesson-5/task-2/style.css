@@ -1,0 +1,97 @@
+.wrapper{
+    width: 1200px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.wrapper hr+p{
+    margin-top: 40px;
+    font: lighter 16px 'Lato', sans-serif;
+    color: #3c3c3c;
+}
+hr{
+    margin: 0px;
+    display: inline-block;
+    width: 45px;
+    color: #dddbdb;
+}
+h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font: bold 34px 'Lato', sans-serif;
+}
+.container{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.team_member_description,.scene p{
+    text-align: left;
+}
+.team_member_description{
+    color: #646464;
+    font-size: 14px;
+}
+.scene p{
+    font-weight: bold;
+    font-size: 18px;
+}
+/*FLIP CARD*/
+.scene {
+    width: 269px;
+    height: 268px;
+    perspective: 600px;
+    margin: 15px;
+    font-family: 'Lato';
+}
+.card {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.card:hover{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.card__face{
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: url(images/1.png);
+}
+.card__face--back {
+    transform: rotateY(180deg);
+}
+/* SOCIAL BAR*/
+.social_media{  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   font-family: "Font Awesome 5 Free";
+   font-size: 34px;
+   color: white;
+}
+.social_media ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+.social_media li{
+    background-color:#5ecbe7;
+    margin: 4px;
+    flex: 1;  
+    width: 37px;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
