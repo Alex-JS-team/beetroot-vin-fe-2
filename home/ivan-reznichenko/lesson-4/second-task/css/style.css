@@ -1,0 +1,93 @@
+* {
+    font-family: "TrebuchetMS";
+    
+}
+.outer {
+    border: 20px solid white;
+}
+.header {
+    text-align: center;
+    background-color: #4a4f56;
+}
+.h-title {
+    color: #eb7e7f;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.h-subtitle {
+    color: #eb7e7f;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #3b3f45;
+}
+.main-inner {
+    width: 100%;
+    margin: 40px 200px 100px 200px;
+}
+ul {
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+}
+li {
+    padding: 15px 10px;
+    color: white;
+    font-size: 26px;
+}
+.more-inf {
+    display: inline;
+    color: #c0cbd6;
+    font-size: 14px;
+}
+.more-inf::before {
+    content: "(";
+}
+.more-inf::after {
+    content: ")";
+}
+label:nth-child(odd)>li {
+    background-color: #88839e;
+}
+label:nth-child(even)>li {
+    background-color: #7a7593;
+}
+input[type = "checkbox"] {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+}
+.bon-app {
+    background-color: #4a4f56;
+    margin-top: 40px;
+    padding: 25px 0px;
+}
+.b-txt {
+    text-align: center;
+    color: #eb7e7f;
+    font-size: 22px;
+}
+label>li:hover {
+    cursor: pointer;
+    background-color:#625e77;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    transition: all .1s ease-in;
+}
+label>li:active {
+    background-color: #eb7e7f;
+}
+.li-txt {
+    display: inline-block;
+}
+input[type="checkbox"]:checked + .li-txt{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
