@@ -1,0 +1,79 @@
+body {
+    background: url(background.png);
+}
+.student {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.st-about {
+    padding: 10px 30px;
+    background-color: rgb(193, 204, 127);
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 24px;
+
+}
+.wrapper {
+    display: flex;
+    margin: 50px 150px;
+    justify-content: space-around;
+}
+.lesson {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: rgb(175, 142, 189);
+    border-radius: 15px;
+    font-family: 'Philosopher', sans-serif;
+}
+.numberl {
+    font-size: 21px;
+    text-align: center;
+    margin: 10px 0;
+}
+.taskl {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 10px;
+}
+.aboutl{
+    font-size: 17px;
+    margin: 5px 10px;
+}
+.aboutl-t3 {
+    margin: 10px 0px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #2EE59D;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.4);
+    transition: .3s;
+  }
+  a:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46,229,157,.4);
+    color: white;
+    transform: translateY(-7px);
+  }
