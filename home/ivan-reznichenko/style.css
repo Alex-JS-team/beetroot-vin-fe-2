@@ -18,14 +18,15 @@ body {
 
 }
 .wrapper {
-    display: flex;
-    margin: 50px 150px;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(auto-fit, 1fr); */
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin: 50px 10%;
 }
 .lesson {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
+    display: grid;
     background-color: rgb(175, 142, 189);
     border-radius: 15px;
     font-family: 'Philosopher', sans-serif;
@@ -48,10 +49,13 @@ body {
     margin: 10px 0px;
 }
 .btn {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    align-self: center;
+    
 }
 a {
+    justify-self: center;
     text-decoration: none;
     outline: none;
     display: inline-block;

@@ -1,0 +1,70 @@
+.outer {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.inner {
+    display: flex;
+    background-color: #fdde7e;
+    padding: 80px 15px;
+}
+.item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0px 15px;
+}
+.prise {
+    color: #02995b;
+    font-family: "Miso";
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.img-cup {
+    display: flex;
+    flex-direction: column;
+}
+.smoke {
+    margin: 10px auto;
+    width: 49px; 
+    height: 46px;
+}
+.cup-bean {
+    position: relative;
+}
+.cup {
+    width: 135px;
+    height: 77px;
+    margin: 0px auto;
+}
+.cup-bean::before {
+    position: absolute;
+    content: "";
+    width: 36px;
+    height: 45px;
+    top: 50%;
+    left: 48%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/bean.png);
+}
+.title {
+    margin-top: 40px;
+    font-family: "Miso";
+    font-size: 56px;
+    font-weight: 400;
+}
+.subtitle {
+    margin: 20px 0px;
+    font-family: "Lato";
+    color: #333333;
+    font-weight: 300;
+}
+.item:hover {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    transition: all 0.3s ease-in;
+}
