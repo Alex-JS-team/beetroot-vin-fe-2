@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+* {
+    /* box-sizing: border-box; */
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.page {
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+    margin: 100px auto;
+}
+.page span {
+    color: #cab3b7;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+.page h1 {
+    color: #27b4b6;
+    font-size: 36px;
+    letter-spacing: 11px;
+}
+.page h4 {
+    color: #b59b9b;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 50px;
+}
+main {
+    margin-top: 50px;
+}
+article {
+    display: inline-block;
+    width: 20%;
+    min-height: 300px;
+    padding: 20px;
+}
+.img {
+    font-size: 65px;
+}
+article p {
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 30px;
+}
+article:hover {
+    background-color: #27b4b6;
+    transition: .7s ease;
+    color: white;
+}

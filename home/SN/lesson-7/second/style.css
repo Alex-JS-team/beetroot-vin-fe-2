@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    transition: all .2s ease-in;
+}
+body {
+    background-color: #2B81AC;
+}
+.weather-bg-block {
+    margin: 20px auto;
+    width: 90%;
+    background-color: #3399CC;
+    padding: 5%;
+}
+.weather-block {
+    margin: 30px auto;
+    width: 80%;
+}
+.weather-block h2 {
+    color: white;
+}
+ul { 
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+    border: 3px solid white;
+}
+.list-items{
+    font-size: 20px;
+    display: inline-block;
+    border: 3px solid white;
+    height: 25%;
+    padding: 10px;
+}
+.w-25 {
+    width: 25%;
+}
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
+.city-1 {
+    background-color: ;
+}
+.city-2{
+    background-color: #00CDCD;
+}
+.city-3{
+    background-color: #AA669C;
+}
+.city-4{
+    background-color: #E04545;
+}
+.city-5{
+    background-color: #FF6747;
+}
+.city-6{
+    background-color:#FFCD5E;
+}
+.city-7{
+    background-color:#7FCD98;
+}
+.city-8{
+    background-color:#439A9A;
+}
+.city-9{
+    background-color:#E7669C;
+}
+.city-10{
+    background-color:#009A63;
+}
+.city-11{
+    background-color:#66669C;
+}
+ul:hover > li:not(:hover){
+    opacity: 0.5;
+}
+.weather-block p {
+    color: white;
+    font-size: 20px;
+}
