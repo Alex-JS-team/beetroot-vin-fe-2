@@ -22,8 +22,14 @@
     max-width: 740px;
     display: flex;
     flex-grow: 2;
-    position: relative;
-    
+    position: relative;    
+}
+.car-img {
+    overflow: hidden;
+}
+.car-img img {
+    width: auto;
+    height: 100%;
 }
 .big-card-text {
     position: absolute;

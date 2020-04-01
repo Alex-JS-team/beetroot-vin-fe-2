@@ -1,6 +1,8 @@
 .main {
     background-image: url(../img/img.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .main_txt {
     text-align: center;
