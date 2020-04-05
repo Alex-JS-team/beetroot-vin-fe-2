@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leson 14 task 1</title>
-    <link rel="stylesheet" href="css/normalize.css">    <!-- normalize -->
-    <link rel="stylesheet" href="css/fonts.css">        <!-- шрифт/font -->
-    <link rel="stylesheet" href="css/style.css">        <!-- главный css/main css -->
+    <link rel="stylesheet" href="css/normalize.css"> <!-- normalize -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css"> <!-- шрифт/font -->
+    <link rel="stylesheet" href="css/style.css"> <!-- главный css/main css -->
 </head>
+
 <body>
-    
+    <div class="container-fluid header d-flex flex-column justify-content-between">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center header__menu">
+                <span class="header__logo col-3">Cahee</span>
+                <div class="list-menu col-7">
+                    <ul class="d-flex justify-content-between">
+                        <li class="list-menu__item list-menu__item--active">
+                            home
+                        </li>
+                        <li class="list-menu__item">
+                            about
+                        </li>
+                        <li class="list-menu__item">
+                            services
+                        </li>
+                        <li class="list-menu__item">
+                            gallery
+                        </li>
+                        <li class="list-menu__item">
+                            blog
+                        </li>
+                        <li class="list-menu__item">
+                            contact
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex flex-column header__text text-block">
+                    <span class="text-block__title">
+                        Fresh Life
+                    </span>
+                    <span class="text-block__subtitle">
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco.
+                    </span>
+                    <button class="text-block__button">
+                        GET FREE NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-img d-flex justify-content-center">
+            <img src="./img/scroll.png" alt="" srcset="">
+        </div>
+    </div>
+    <div class="container-fluid about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 about__img">
+                    <img class="w-100" src="./img/about_img.png" alt="" srcset="">
+                </div>
+                <div class="col-5 d-flex flex-column justify-content-center about__text-block text-block">
+                    <span class="text-block__title text-block__title--white text-block__title--size700">
+                        About Us
+                    </span>
+                    <span class="text-block__subtitle text-block__subtitle--white">
+                        Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum.
+                    </span>
+                    <span class="text-block__subtitle text-block__subtitle--white">
+                        Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                    </span>
+                </div>
+            </div>
+        </div>   
+    </div>
 </body>
+
 </html>
