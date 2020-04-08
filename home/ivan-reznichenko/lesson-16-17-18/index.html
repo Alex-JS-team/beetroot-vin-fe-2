@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lesson 16-18 Adaptive</title>
 
     <link rel="stylesheet" href="css/normalize.css"> <!-- normalize -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -17,15 +17,62 @@
 <body>
     <div class="blog-header d-flex flex-column">
         <div class="container">
-            <div class="row d-flex justify-content-between">
-                <div class="blog-header__logo ">
+            <div class="row">
+                <nav class="navbar w-100 navbar-expand-lg navbar-light">
+                    <a class="navbar-brand blog-header__logo" href="#">akad.</a>
+                    <button class="navbar-toggler menu__button" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link" href="#">Home</a>
+                            </li>
+                            <li class="d-none d-lg-block nav-item menu__item align-self-center">
+                                -
+                            </li>
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link" href="#">about us</a>
+                            </li>
+                            <li class="d-none d-lg-block nav-item menu__item align-self-center">
+                                -
+                            </li>
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link" href="#">services</a>
+                            </li>
+                            <li class="d-none d-lg-block nav-item menu__item align-self-center">
+                                -
+                            </li>
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link" href="#">portfolio</a>
+                            </li>
+                            <li class="d-none d-lg-block nav-item menu__item align-self-center">
+                                -
+                            </li>
+                            <li class="nav-item active menu__item">
+                                <a class="nav-link menu__link" href="#">blog</a>
+                            </li>
+                            <li class="d-none d-lg-block nav-item menu__item align-self-center">
+                                -
+                            </li>
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link" href="#">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- <div class="blog-header__logo ">
                     akad.
                 </div>
                 <div class="blog-header__menu burger-menu d-flex flex-column justify-content-center align-items-start">
                     <div class="burger-menu__line "></div>
                     <div class="burger-menu__line burger-menu__line--second"></div>
                     <div class="burger-menu__line burger-menu__line--third"></div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="container-fluid blog-header__content">
@@ -293,24 +340,36 @@
             <div class="row d-flex justify-content-between">
                 <div class="col-md-6 col-12">
                     <div class="footer__menu menu">
-                        <ul class="d-flex flex-wrap justify-content-between">
-                            <li class="menu__item">home</li>
+                        <ul class="d-flex flex-wrap justify-content-between align-items-center">
+                            <li class=" menu__item">
+                                <a class=" menu__link" href="#">home</a>
+                            </li>
                             <li>-</li>
-                            <li class="menu__item">about us</li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">about us</a>
+                            </li>
                             <li>-</li>
-                            <li class="menu__item">services</li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">services</a>
+                            </li>
                             <li>-</li>
-                            <li class="menu__item">portfolio</li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">portfolio</a>
+                            </li>
                             <li>-</li>
-                            <li class="menu__item">blog</li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">blog</a>
+                            </li>
                             <li>-</li>
-                            <li class="menu__item">contact us</li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">contact us</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
                     <div class="footer__creater d-flex justify-content-end">
-                        <span>Created by akhouad 2016. All Rights Reserved</span>    
+                        <span>Created by akhouad 2016. All Rights Reserved</span>
                     </div>
                 </div>
             </div>
@@ -324,7 +383,7 @@
                     <ion-icon name="logo-instagram"></ion-icon>
                 </div>
             </div>
-        </div>    
+        </div>
     </div>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
