@@ -1,0 +1,25 @@
+header{
+    color: white;
+    background-color: #a52a2a;
+    text-align: center;
+}
+.articletext{
+    text-align: left;
+    font-size: 18px;
+}
+.aimage{
+    text-align: left;
+}
+.carimages{
+    text-align: center ; 
+}
+.ci{
+    border: 2px dashed black;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,6 @@
+@keyframes reduce_radius {
+    from { r: 50; }
+    to { r: 40; }
+}
+
+circle { animation: reduce_radius 1s, popup 2s; }

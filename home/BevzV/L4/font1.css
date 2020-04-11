@@ -1,0 +1,85 @@
+.bg{
+width: 1716px;
+height: 1351px;
+display: flex;
+justify-content: center;
+padding: 115px 80px;
+
+}
+
+.card{
+width: 1400px;
+height: 940px;
+padding: 140px 138px 120px 121px;
+box-shadow: 0 0 30px rgb(212, 212, 212);
+}
+
+.t1 {
+color: #171717;
+font-family: "Playfair Display", serif;
+font-size: 42pt;
+font-weight: 400;
+text-align: left;
+margin-left: 2px;
+margin-bottom: 39px;
+}
+
+span{
+width: 62px;
+height: 79px;
+opacity: 1;
+color: #171717;
+font-family: "Playfair Display";
+font-size: 110px;
+font-weight: 400;
+line-height: 34px;
+text-transform: uppercase;
+letter-spacing: -0.55px;
+}
+
+.t2 {
+    font-family: "Lato", serif;
+    font-size: 18pt;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #8b8b8b;
+    text-align: left
+}
+
+blockquote {
+    font-weight: 300;
+    font-size: 22pt;
+    font-style: italic;
+    position: relative;
+}
+
+blockquote::before {
+    content: "“";
+    position: absolute;
+    left: -40px;
+    top: -55px;
+    font-size: 55pt;
+}
+
+.button {
+    width: 264px;
+    height: 40px;
+    color: #eaa258;
+    background-color: #fff;
+    border: 2px solid #eaa258;
+    font-family: "Lato", serif;
+    font-size: 14pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button:hover{
+    color: white ;
+    background-color: #eaa258 ;
+    cursor: pointer;
+
+
+}
