@@ -1,0 +1,101 @@
+[
+  {
+    "id": 2267057,
+    "name": "Lisbon",
+    "country": "PT",
+    "coord": {
+      "lon": -9.13,
+      "lat": 38.72
+    }
+  },
+  {
+    "id": 2988507,
+    "name": "Paris",
+    "country": "FR",
+    "coord": {
+      "lon": 2.35,
+      "lat": 48.85
+    }
+  },
+  {
+    "id": 792680,
+    "name": "Belgrade",
+    "country": "RS",
+    "coord": {
+      "lon": 20.47,
+      "lat": 44.8
+    }
+  },
+  {
+    "id": 524901,
+    "name": "Moscow",
+    "country": "RU",
+    "coord": {
+      "lon": 37.62,
+      "lat": 55.75
+    }
+  },
+  {
+    "id": 293397,
+    "name": "Tel Aviv",
+    "country": "IL",
+    "coord": {
+      "lon": 34.78,
+      "lat": 32.08
+    }
+  },
+  {
+    "id": 360630,
+    "name": "Cairo",
+    "country": "EG",
+    "coord": {
+      "lon": 31.25,
+      "lat": 30.06
+    }
+  },
+  {
+    "id": 5128581,
+    "name": "New York",
+    "country": "US",
+    "coord": {
+      "lon": -74.01,
+      "lat": 40.71
+    }
+  },
+  {
+    "id": 1261481,
+    "name": "New Delhi",
+    "country": "IN",
+    "coord": {
+      "lon": 77.23,
+      "lat": 28.61
+    }
+  },
+  {
+    "id": 5391959,
+    "name": "San Francisco",
+    "country": "US",
+    "coord": {
+      "lon": -122.42,
+      "lat": 37.77
+    }
+  },
+  {
+    "id": 1850144,
+    "name": "Tokyo",
+    "country": "JP",
+    "coord": {
+      "lon": 139.69,
+      "lat": 35.69
+    }
+  },
+  {
+    "id": 2147714,
+    "name": "Sydney",
+    "country": "AU",
+    "coord": {
+      "lon": 151.21,
+      "lat": -33.87
+    }
+  }
+]

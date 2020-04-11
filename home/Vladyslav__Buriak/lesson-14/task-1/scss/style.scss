@@ -1,0 +1,124 @@
+@import"fonts";
+@import"variables";
+@import"mixin";
+@import"reset";
+@import"header";
+@import"about";
+@import"our-team";
+
+// спецификация
+.btn{
+	@include fonts(20px,#fff,$ralLight);
+	outline: none;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+	display: block;
+	max-width: 200px;
+	text-align: center;
+	padding: 17px 0;
+	transition: all ease 1s;
+	filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.5));
+    
+	&:hover{
+		transform: scale(1.1);
+	}
+	&:focus{
+		border: 2px solid steelblue;
+	}
+}
+.texts{
+	max-width: 570px;
+	width: 100%;
+	padding-top: 10%;
+}
+.title{
+	@include fonts(82px,#fff,$ralBold);
+
+	@media(max-width: 992px){
+		font-size: 60px;
+	}
+	@media(max-width: 768px){
+		text-align: center;
+	}
+}
+.sub-title{
+	@include fonts(17px,$fc,$ralLight);
+	margin-top: 20px;
+	line-height: 25px;
+
+	@media(max-width: 992px){
+		font-size: 15px;
+	}
+	@media(max-width: 567px){
+		font-size: 12px;
+		text-align: center;
+	}
+}
+.none{
+    display: none;
+}
+
+.container{
+	@include container;
+    @include fonts($fz,$fc,$ff);
+    
+	@media(max-width:1200px){
+		max-width: 950px;
+	}
+	@media(max-width:992px){
+		max-width: 768px;
+	}
+	@media(max-width:768px){
+		max-width: none;
+	}
+}
+
+.gallery{
+	background-color: #ffe92f;
+
+	.texts--center{
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 5%;
+
+		.title--black{
+			color: #262626;
+		}
+	}
+	.gallery-box{
+		@include flex($row,$rowCent,$colCent);
+		flex-wrap: wrap;
+		padding: 0 5px;
+		
+		&__img{
+			width: 47,5%;
+			height: 100%;
+			padding-top: 25px;
+			margin:0 12px;
+
+			img{
+				max-width: 100%;
+				height: auto;
+				display: block;
+			}
+		}
+		.gallery-box__img:first-child{
+			width: 65%;
+		}
+	}
+	.gallery-box__img:nth-child(2){
+		width: 30%;
+		img:nth-child(2){
+			margin-top: 15px;
+		}
+	
+	}
+	.btn--blue{
+		background-color: #5585a2;
+		margin: 4% auto 8%;
+	}
+}
+
+

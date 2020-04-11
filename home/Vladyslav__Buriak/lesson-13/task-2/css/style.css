@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url('/img/Layer\ 5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.goods{
+    margin: 0 auto;
+    max-width: 685px;
+    width: 100%;
+    padding: 25px 15px;
+    background-color: #111a28;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 32.5px rgba(0,0,0,0.82));
+    font-family: 'Museo300';
+}
+.shoes{
+    display: flex;
+    justify-content: space-around;
+}
+.shoes__photo{
+    align-self: center;
+}
+.description{
+    max-width: 190px;
+    width: 100%;
+}
+.description__name,.description__sub-name{
+    font-size: 24px;
+    line-height: 26px;
+    color: #C7C8CA;
+    text-transform: uppercase;
+}
+.description__sub-name{
+    font-size: 14px;
+    text-transform: none;
+    color: #3B434E;
+}
+.mark ,.form{
+    margin-top: 15px;
+}
+.mark__star{
+    width: 12px;
+    height: 12px;
+}
+.form__select{
+    background-color: transparent;
+    outline: none;
+    border: none;
+   -webkit-appearance: none;
+    padding:4px 10px;
+    font-family: 'Museo100';
+    font-size: 16px;
+    color: #9e9e9e;
+    border: 1px solid #6d6d6d;
+}
+.form__btn{
+    background-color: #202835;
+    color: #9e9e9e;
+    border: 1px solid #6d6d6d;
+    outline: none;
+    padding: 12px 20px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: 'Museo300';
+    cursor: pointer;
+}
+
+.circle{
+    max-width: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.circle__slide{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1F273F;
+    cursor: pointer;
+}
+.circle__slide:hover{
+   transform: scale(1.2);
+   transition: all ease 1s;
+}
+.circle__slide--white{
+    background-color: #fff;
+}
+.circle__slide--red{
+    background-color: #ED3333;
+}
+.circle__slide--blue{
+    background-color: #29E3EA;
+}
+/* cart */
+.mini-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #9e9e9e;
+    font-family: 'Museo300';
+    width: 600px;
+    height: 200px;
+    color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    border-radius: 6px;
+}
+.mini-img{
+    width: 150px;
+    height: auto;
+}

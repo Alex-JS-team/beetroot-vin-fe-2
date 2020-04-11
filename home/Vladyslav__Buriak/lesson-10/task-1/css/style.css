@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Miso;
+	src: url('/fonts/Miso.ttf');
+}
+.main{
+	background-color: #FDDE7E;
+	margin-top: 110px;
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+.container{
+	max-width: 1200px;
+	width: 100%;
+	font-family: Miso;
+	margin: 0 auto;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+}
+.item{
+	max-width: 355px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0 70px;
+	background-color: #fff;
+	transition: all ease 1s;
+	border-radius: 3px;
+}
+.item:hover{
+	margin: -30px 0;
+}
+.item__title{
+	font-size: 70px;
+	letter-spacing: 2px;
+	color: #02995b;
+	font-family: "Miso";
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+.item__img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 147px;
+	position: relative;
+}
+img:first-child{
+	max-width: 60px;
+	height: auto;
+}
+img:nth-child(2){
+	max-width: 130px;
+	height: auto;
+	align-self: flex-end;
+	padding: 5px 0 15px;
+}
+img:last-child{
+	max-width: 50px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 48%;
+	transform: translateX(-50%);
+}
+.item__text{
+	font-size: 56px;
+	color: #333333;
+	position: relative;
+}
+.item__text:after{
+	content: "any cup of coffee until $3";
+	position: absolute;
+	left: 50%;
+	top: 68px;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	width: 120px;
+	transform: translateX(-50%);
+	color: #7B7B7B;
+}

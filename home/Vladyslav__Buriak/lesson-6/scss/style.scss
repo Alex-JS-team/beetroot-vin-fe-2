@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import"reset";
+@import"mixin";
+@import"variables";
+.container{
+   @include container;
+}
+
+footer{
+   margin-top: 120px;
+   background-color: #121116;
+   .footer-body{
+      @include flex($col,$rowCent,$colCent);
+      padding: 100px 0 35px;
+      .media{
+         &__title{
+             @include text($textCenter,1px,$uppercase);
+             @include fonts(20px,$fc);
+             padding: 35px 0 15px;
+         }
+         &__separator{
+            @include wh(230px,1px);
+            background-color: #ffffff;
+         }
+         &__icons{
+            @include wh(14,14);
+            @include flex($row,space-around,$colCent);
+            margin: 0 auto;
+            margin-top: $margin-base;
+            max-width: 170px;
+             a{
+                color: #fff;
+             }
+         }
+      }
+      &__copy{
+         @include fonts(15px,$fc);
+         font-weight: $fw;
+         margin-top: 75px;
+         span{
+            color: #03A6D2;
+         }
+      }
+   }
+   
+}

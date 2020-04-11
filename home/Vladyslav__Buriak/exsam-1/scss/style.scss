@@ -1,0 +1,476 @@
+
+@import"variables";
+@import"mixin";
+@import"reset";
+
+
+// спецификация
+body{
+	color:$fc;
+}
+.btn{
+	@include fonts(16px,$fc,$ff);
+	margin-top: 40px;
+	background-color:#5474FD;
+	display: block;
+	max-width: 200px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	text-transform: uppercase;
+	transition: all ease 1s;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
+.top0{
+	top: 0;
+}
+
+.container{
+	@include container;
+
+	@media(max-width:1110px){
+		max-width: 950px;
+	}
+
+	@media(max-width: 950px){
+		max-width: 750px;
+	}
+
+	@media(max-width: 750px){
+		max-width: none;
+	}
+}
+
+.header{
+	background-image: url('/img/Image.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	.header-text{
+	    @include fonts(14px,$fc,$ff);
+		@include flex($col,$rowCent,$colCent);
+		padding-top: 21%;
+	
+		&__title{
+		   @include fonts(48px,$fc,$ff2);
+		   font-weight: 600;
+		   text-transform: uppercase;
+		   letter-spacing: 5px;
+		}
+
+		&__sub-title{
+			@include fonts(22px,$fc,$ff2);
+			line-height: 25px;
+		}
+	}
+	.form{
+		text-align: center;
+		margin-top: 5%;
+	
+		&__label{
+			position: relative;
+		}
+		&__input{
+			max-width: 550px;
+			width: 100%;
+			height: 55px;
+			position: relative;
+			padding-left: 7%;
+
+			@media(max-width:768px){
+				max-width: 450px;
+				padding-left: 4%;
+
+			}
+
+			@media(max-width:576px){
+				max-width: 300px;
+				padding-left: 1%;
+
+			}
+		}
+	
+		&__btn{
+		   position: absolute;
+		   right: 3px;
+		   top: 50%;
+		   padding: 17px 40px;
+		   transform: translateY(-50%);
+		   @include fonts(14px,$fc,$ff);
+		   text-transform: uppercase;
+		   background-color: #5373FB;
+		   border: none;
+		   outline: none;
+		   display: flex;
+		   align-items: center;
+		   transition: all ease 1s;
+		   @media(max-width:768px){
+			   padding: 15px 35px;
+		   }
+		   @media(max-width:576px){
+			padding: 10px;
+		}
+
+		   &:hover{
+			   background-color: #333333;
+			   cursor: pointer;
+		   }
+	
+		  .form__span{
+			  padding: 0 10px;
+		  }
+		}
+	}
+	
+	.header-scroll{
+		text-align: center;
+		padding: 10% 0 12%;
+		@include flex($col,$rowCent,$colCent);
+	
+		&__link{
+			@include fonts(14px,$fc,$ff2);
+			padding-bottom: 10px;
+			text-decoration: none;
+			font-weight: 400;
+		}
+	}
+	
+	.nav{
+		background-color: #5474FD;
+		
+		.nav-body{
+		   @include flex($row,space-between,$colCent);
+		   height: 75px;
+		   padding: 0 5px;
+		   @media(max-width:768px){
+		      @include flex($row,center,$colCent);
+
+		   }
+	
+		   &__logo{
+				@include fonts(16px,$fc,$ff2);
+				text-transform: uppercase;
+				text-decoration: none;
+		   }
+		   
+		   .menu{
+			 @include flex($row,space-between,$colCent);
+			 width: 530px;
+
+			 @media(max-width:768px){
+				 background-color: red;
+				 position: fixed;
+				 left: 0;
+				 top: 0;
+				 width: 100%;
+				 height: 100%;
+				 flex-direction: column;
+				 justify-content: flex-start;
+				 padding-top: 50px;
+				 top: -110%;
+			 }
+				
+			 &__item{
+				@media(max-width:768px){
+					padding-top: 30px;
+					
+				}
+			 }
+			
+	
+			&__link{
+				@include fonts(14px,$fc,$ff);
+				text-decoration: none;
+				text-transform: uppercase;
+				transition: all ease 1s;
+				position: relative;
+
+			
+				&:before{
+					content: "";
+					position: absolute;
+					left: 0;
+					bottom: -3px;
+					background-color: #333333;
+					width:0;
+					height: 2px;
+					transition: all ease 1s;
+				}
+				&:hover{
+					color: #333333;
+					&:before{
+						width: 100%;
+					}
+				}
+
+		   }
+		   }
+		   .burger{
+			   width: 30px;
+			   height: 20px;
+			   display: none;
+			   position: relative;
+
+			   @media(max-width: 768px){
+				   display: block;
+				   margin-left: 20px;
+
+			   }
+
+			   &::before{
+				   position: absolute;
+				   content: '';
+				   background-color: #fff;
+				   top: 0;
+				   left: 0;
+				   width: 100%;
+				   height: 2px;
+			   }
+			   &::after{
+				position: absolute;
+				content: '';
+				background-color: #fff;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 2px;
+			}
+
+			   &__span{
+				   width: 100%;
+				   position: absolute;
+				   height: 2px;
+				   background-color: #fff;
+				   left: 0;
+				   top: 50%;
+				   transform: translateY(-50%);
+			   }
+		   }
+		}
+	}
+}
+
+.us{
+	background-image: url('/img/01.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	.us-body{
+		@include flex($row,space-between,$colCent);
+		padding: 0 5px;
+		@media(max-width:768px){
+		    @include flex($col,space-between,$colCent);
+
+		}
+
+		.left-bar ,.right-bar{
+			max-width: 540px;
+			width: 100%;
+            margin-top: 12%;
+
+			&__title{
+				@include fonts(36px,$fc,$ff);
+				font-weight: 400;
+			}
+	
+			&__text{
+				@include fonts(16px,#e8e8e8,$ff2);
+				margin-top: 5%;
+			}
+		}
+		.right-bar{
+		      @include flex($col,center,$colCent);
+			
+			&__img{
+				display: block;
+				text-align: center;
+				max-width: 350px;
+				width: 100%;
+			}
+			&__img--left{
+				align-self: flex-end;
+				margin-top: 5px;
+				@media(max-width: 768px){
+					align-self: center;
+
+ 
+				}
+			}
+		}
+	}
+	}
+	.work{
+		background-color:#333333;
+
+		.work-body{
+			@include flex($row,space-around,$colCent);
+			padding: 70px 0 90px;
+			@media(max-width:768px){
+				@include flex($col,space-between,$colCent);
+	
+			}
+
+			.section{
+				@include flex($col,center,$colCent);
+				@media(max-width:768px){
+					margin-top: 10px;
+		
+				}
+
+				&__title{
+				   @include fonts(36px,#e8e8e8,$ff);
+				   margin-top: 20px;
+					
+				}
+			}
+		}
+	}
+.main-section{
+	background-image: url('/img/04.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	.box{
+		max-width: 540px;
+		width: 100%;
+		background-color: rgba( 23, 23,23, 0.8);
+		padding: 3% 2%;
+	
+		@media(max-width:768px){
+			max-width: 340px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		@media(max-width:576px){
+			max-width: 250px;
+		}
+		
+	
+		&__title{
+		  @include fonts(20px,#e8e8e8,$ff2);
+		  
+		  @media(max-width:768px){
+			font-size: 16px;
+		}
+		
+		}
+
+		&__slogan{
+			@include fonts(20px,#e8e8e8,$ff2);
+			text-transform: uppercase;
+			margin-top: 30px;
+
+			@media(max-width:768px){
+				font-size: 16px;
+      			margin-top: 20px;
+
+			}
+			
+		}
+
+		&__text{
+			@include fonts(16px,#e8e8e8,$ff2);
+			margin-top: 25px;
+			line-height: 26px;
+		}
+		
+	}
+}
+
+.box-wrap{
+	padding: 20% 0 10%;
+	@media(max-width:768px){
+		@include flex($col,center,$colCent);
+
+	}
+}
+.main-section--second{
+	 background-image: url('/img/05.png');
+}
+
+.review{
+	background-image: url('/img/06.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__title{
+		@include fonts(36px,$fc,$ff2);
+		font-weight: 400;
+		text-align: center;
+		padding: 11% 5%;
+	}
+	.review-section{
+		padding: 7% 0 20%;
+		@include flex($row,center,$colCent);
+		background-color: #333333;
+		@media(max-width:768px){
+			@include flex($col,center,$colCent);
+		}
+
+		.clients{
+			padding: 4%;
+			
+			&__name{
+			   @include fonts(20px,#fefefe,$ff2);
+			   text-transform: uppercase;
+			}
+
+			&__text{
+				@include fonts(16px,#e8e8e8,$ff2);
+				margin-top: 30px;
+				line-height: 26px;
+			}
+		}
+	}
+}
+
+.review-section__img{
+	max-width: 100%;
+	height: auto;
+	@media(max-width:567px){
+
+	}
+}
+	.footer{
+		background-color: #232323;
+
+		.footer-body{
+			@include flex($col,center,$colCent);
+			padding: 12% 0 6%;
+
+			&__logo{
+				@include fonts(24px,$fc,$ff2);
+				text-decoration: none;
+				font-weight: 700;
+				letter-spacing: 3px;
+				text-transform: uppercase;
+			}
+
+			&__text{
+				@include fonts(16px,$fc,$ff2);
+				letter-spacing: 2px;
+				line-height: 26px;
+				margin-top: 5px;
+			}
+            .media{
+			   @include flex($row,space-between,$colCent);
+				max-width: 170px;
+				width: 100%;
+				margin-top: 20px;
+				&__link{
+					color: #fff;
+				
+				}
+			}
+		}
+	}

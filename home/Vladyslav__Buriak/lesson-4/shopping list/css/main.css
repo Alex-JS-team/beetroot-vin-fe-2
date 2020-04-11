@@ -1,0 +1,116 @@
+.main-body{
+    background-color: #3B3F45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 100px;
+    height: auto;
+    flex-direction: column;
+}
+
+.main-body__menu{
+    background-color: #88839E;
+    max-width: 750px;
+    height: 310px;
+    width: 100%;
+}
+@media(max-width:992px){
+    .main-body__menu{
+        max-width: 550px;
+    }
+}
+@media(max-width:576px){
+    .main-body__menu{
+        max-width: 300px;
+    }
+}
+.form__section{
+    display: flex;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.form__section:hover{
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    background-color: #625E77;
+    transition: .4s;
+}
+.form__section input[type=checkbox]{
+    width: 22px;
+    height: 22px;
+}
+.form__section input[type=checkbox]:checked+label{
+    text-decoration: line-through;
+    color: #BCB7C0;
+}
+.form__section label{
+    color: #fff;
+    font-size: 19px;
+    padding-left: 10px;
+    position: relative;
+}
+@media(max-width:576px){
+    .form__section label{
+        font-size: 16px;
+    }
+}
+.form__section:active{
+    background-color: #E87672;
+}
+.form__section label:after{
+    content: "(for the next lessons about CSS)";
+    padding-left: 5px;
+    font-size: 14px;
+    color: #BCB7C0;
+    position: absolute;
+    top: 50%;
+    width: 250px;
+    transform: translateY(-50%);
+}
+@media(max-width:576px){
+    .form__section label:after{
+        font-size: 10px;
+        width: 170px;
+    }
+}
+.form__section input[type=checkbox]:checked+label:after{
+    text-decoration: line-through;
+}
+.form__section:nth-child(2) label:after{
+    content: "(for more CSS manipulations)";
+}
+.form__section:nth-child(3) label:after{
+    content: "(because they are awesome)";
+}
+.form__section:nth-child(4) label:after{
+    content: "(hm...they always disappear)";
+}
+.form__section:nth-child(5) label:after{
+    content: "";
+}
+.form__section:nth-child(6) label:after{
+    content: "(for my friends)";
+}
+.form__section:nth-child(even){
+    background-color: #7A7593;
+}
+.form__section:nth-child(even):active{
+    background-color: #E87672;
+}
+
+.main-body__rewiev{
+    margin-top: 40px;
+    max-width:750px;
+    width:100%;
+    font-size: 20px;
+}
+@media(max-width:992px){
+    .main-body__rewiev{
+        max-width: 550px;
+    }
+}
+@media(max-width:576px){
+    .main-body__rewiev{
+        max-width: 300px;
+    }
+}
