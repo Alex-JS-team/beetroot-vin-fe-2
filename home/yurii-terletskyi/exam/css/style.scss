@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+
+// HEADER
+.header{
+    background: url(/img/header-bg.jpg) no-repeat center center white;
+    background-size: cover;
+    height: 100%;
+    &__title{   
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        // line-height: 26px;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 4.8px;
+        padding-top: 15rem;
+        
+    }
+    &__subtitle{
+        color: #ffffff;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        // line-height: 26px;
+        letter-spacing: 6.82px;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    &__scroll{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        // line-height: 26px;
+        letter-spacing: 2.8px;
+        padding-top: 10rem;
+    }
+    &__footer{
+        background-color: #5474fd;
+        margin-top: 10rem;
+        padding-top: 1rem;
+
+
+        &-menu_logo{
+            color: white;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        &-menu_nav{
+
+            & ul{
+                list-style: none;
+                // margin-top: 0;
+                // margin-bottom: 1rem;
+            }
+            & li{
+                display: inline;
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-family: "Aleo";
+                font-size: 14px;
+                padding: 5px 5px;
+            }
+
+        }
+    }
+}
+
+
+// WHY CHOOSE US
+
+.why-choose-us{
+
+    background-color:#333333 ;
+
+    &__about{
+        background: url(/img/wcu-bg.png) no-repeat center center;
+        background-size: cover;
+        padding-top: 10rem;
+
+        &_title
+        {
+            font-family: "Aleo";
+            color: white;
+            font-size: 36px;
+            font-weight: 400;
+        }
+        &_text{
+            width: 50%;
+            color: #e8e8e8;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 1.6px;
+            text-align: center;
+        }
+        &_btn{
+            width: 225px;
+            height: 4rem;
+            border: none; 
+            outline: none;
+            color: white;
+            font-family: "Aleo";
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            background: url(/img/wcu_btn.png) no-repeat center center;
+            background-size: cover;
+        }
+
+       }
+
+       &__icons{
+           padding-top: 4rem;
+           padding-bottom: 5rem;
+
+           & span{
+               color: white;
+               font-family: "Aleo";
+               font-size: 36px;
+               font-weight: 400;
+               padding-top: 1rem;
+           }
+       }
+
+
+}
+
+.first-booking{
+    background: url(/img/booking_bg1.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+    &__info{
+        background-color: black;
+        opacity: 0.7;
+        padding: 6rem 2rem;
+        margin-bottom: 6rem;
+        width: 30%;
+        position: absolute;
+        left: 350px;
+        top: 200px;
+       
+        
+        &_title
+        {
+            font-family: "Josefin Sans";
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            padding: 5px 0;
+            
+        }
+        &_subtitle
+        {
+            font-family: "Josefin Sans";
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+            padding: 5px 0;
+        }
+        &_text{
+            color: #e8e8e8;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 5px 0;
+            padding-bottom: 4rem;
+        }
+        &_btn{
+            width: 225px;
+            height: 4rem;
+            // padding: 10px 0;
+            border: none; 
+            outline: none;
+            color: white;
+            font-family: "Aleo";
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            background: url(/img/wcu_btn.png) no-repeat center center;
+            background-size: cover;
+        }
+    }
+
+
+}
+
+// SECOND BOOKING
+
+
+.second-booking{
+    background: url(/img/booking_bg2.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+    &__info{
+        background-color: black;
+        opacity: 0.7;
+        padding: 6rem 2rem;
+        margin-bottom: 6rem;
+        width: 30%;
+        position: absolute;
+        right: 350px;
+        top: 200px;
+       
+        
+        &_title
+        {
+            font-family: "Josefin Sans";
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            padding: 5px 0;
+            
+        }
+        &_subtitle
+        {
+            font-family: "Josefin Sans";
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+            padding: 5px 0;
+        }
+        &_text{
+            color: #e8e8e8;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 5px 0;
+            padding-bottom: 4rem;
+        }
+        &_btn{
+            width: 225px;
+            height: 4rem;
+            // padding: 10px 0;
+            border: none; 
+            outline: none;
+            color: white;
+            font-family: "Aleo";
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            background: url(/img/wcu_btn.png) no-repeat center center;
+            background-size: cover;
+        }
+    }
+
+
+}
+
+.review{
+    background: url(/img/tourist.png) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 10rem;
+    &__title{
+        padding-top: 5rem;
+        padding-bottom: 7rem;
+        color: white;
+        font-family: "Aleo";
+        font-size: 36px;
+        font-weight: 400;
+
+    }
+    &__wrapper{
+        background-color: #333333;
+    &__item{
+        & h3{
+            color: white;
+        }
+        & p {
+            color: white;
+        }
+    }
+}
+}
