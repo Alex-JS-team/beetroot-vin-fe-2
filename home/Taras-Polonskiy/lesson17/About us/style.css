@@ -1,0 +1,373 @@
+header{
+    background: url(img/header.png) no-repeat 100%;
+    background-size: cover;
+}
+
+.logo{
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.667;
+  text-align: left;
+  margin:0;
+}
+
+li{
+   display:block;
+   margin:0;
+   padding:0; 
+}
+
+.text-center__text-1{
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.333;
+  padding-top: 217px;
+}
+
+.text-center__text-2{
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 3.429;
+  padding-bottom:165px;
+}
+
+.block__text-1{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.6;
+  padding-top: 150px;
+}
+
+.block__text-2{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: rgb(96, 96, 110);
+  text-transform: uppercase;
+  line-height: 1.714;
+}
+
+.block__text-3{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(96, 96, 110);
+  line-height: 2.143;
+}
+
+.block-2__text-1{
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  animation: Rotate 3s infinite ease-in-out;
+}
+
+.block-2__text-2{
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(96, 96, 110);
+  line-height: 2.143;}
+
+
+.text-block-3{
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(96, 96, 110);
+  font-style: italic;
+  line-height: 2.667;
+}
+
+button, .btn-primary, .btn-secondary{
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 99px;
+  height: 29px;
+  background-color: rgb(123, 238, 199);
+  border:none;
+  border-radius: 0%;
+  opacity:0.5;
+  line-height: 2.143;
+  animation: hinge 3s infinite ease-in-out;
+}
+
+@keyframes hinge {
+  from {text-shadow: 0 0 3px red;}
+  50% {text-shadow: 0 0 40px red;}
+  to {text-shadow: 0 0 3px red;}
+  }
+
+  @keyframes  Rotate {
+    from {text-shadow: 0 0 3px red;}
+    50% {text-shadow: 0 0 40px red;}
+    to {text-shadow: 0 0 3px red;}
+    }
+
+
+.btn-primary{
+  width: 165px;
+  height: 50px;
+  opacity:1;
+}
+
+.block-more{
+  padding: 20px 8px 40px 15px; 
+}
+
+.block-more__more{
+  background-color: rgba(96, 96, 110, 0.102);
+  width:100%;
+  margin:0;
+}
+
+.text-john{
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(96, 96, 110);
+  line-height: 2.143;
+}
+
+.col-xs-6, .col-sm-6, .col-md-4, .col-lg-4, .col-xl-4,
+.col-xs-12, .col-sm-12, .col-md-6, .col-lg-5, .col-xl-3{
+  transition: 0.6s;
+}
+
+.background{
+    background-color: rgb(123, 238, 199);
+}
+
+.text-block-4{
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.btn-secondary{
+  background-color: rgb(255, 255, 255);
+  color: rgb(123, 238, 199);
+  width: 165px;
+  height: 49px;
+  opacity:1;
+}
+
+.block-small{
+  background-color: rgb(255, 255, 255);
+  width: 556px;
+  height: 230px;
+}
+
+.block-small__text_1{
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.block-small__text_2{
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(153, 153, 153);
+  line-height: 1.5;
+}
+
+::placeholder{
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: rgb(205, 205, 205);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-control{
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.4;
+  height: 52px;
+}
+
+.form-control-lg{
+  font-size: 1.55rem;
+}
+
+.text_footer{
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(154, 154, 154);
+  text-transform: uppercase;
+  line-height: 3.429;
+  text-align: right;
+}
+
+.social-icons {
+  font-size: 18px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 45px
+}
+
+.footer-link {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(154, 154, 154);
+  text-transform: uppercase;
+  line-height: 3.429
+}
+
+.icon{
+	color:#999999;
+}
+
+/*MENU HAMBURGER*/
+
+.hidden-menu {
+  display: block;
+  position: fixed;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 400px;
+  background: rgba(255,255,255, 0.8);
+  height: 50%;
+  top: 72px;
+  right: -400px;
+  transition: right .3s;
+  z-index: 2;
+}
+
+.hidden-menu-ticker {
+  display: none;
+}
+
+.btn-menu {
+  color: #fff;
+  background: rgba(0, 0, 0, 0);
+  padding: 5px;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  transition: right .23s;
+  z-index: 3;
+  width: 35px;
+  margin: 40px 117px 0 auto;
+}
+
+ .btn-menu span {
+  display: block;
+  height: 1px;
+  background-color: #60606e;
+  margin: 5px 0 0;
+  position: relative;
+  transition: 0.4s;
+ }
+
+  .btn-menu span.first {
+    margin-top: 0;
+    width: 31px;
+  }
+
+  .btn-menu span.second {
+    width: 15px;
+  }
+
+  .btn-menu span.third {
+    width: 23px;
+  }
+ .hidden-menu__item{
+  font-size: 18px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  line-height: 2.667;
+  margin: 50px 0 0 10px;
+ }
+ 
+  .hidden-menu__item:hover{
+	 text-decoration:none;
+	 color: rgb(96, 96, 110);
+	 transition: 0.3s;
+  }
+  
+  .hidden-menu__item-bg:hover{
+	  background:#7beec7;
+	  transition: right 0.3s;
+  }
+  
+  .form-row{
+	max-width: 460px;
+  }
+  
+  .head{
+	background:#dddede;
+	opacity:0.4;
+	position:fixed;
+	z-index:1;
+}
+  
+  .head:hover{
+	background:#7beec7;
+	opacity:0.4;
+	transition: 0.4s;
+  }
+  
+  .form-group{
+	 margin-bottom: 0;
+  }
+  
+  .btn-primary:hover{
+	color: rgb(123, 238, 199);
+	background-color:#939495;
+	transition: 0.4s;
+  }
+  
+  
+/*hamburger menu движение бургера после нажатия*/
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+  right: 10px;
+}
+
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  right: 0;
+}
+
+/*hamburger menu mechanism*/
+
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+
+
+
+

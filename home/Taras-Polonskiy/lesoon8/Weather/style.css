@@ -1,0 +1,113 @@
+body{
+    background: #2B81AC;
+}
+
+.container{
+    background: #3399cc;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+header{
+    font-family: "Lucida Sans Unicode";
+    color:#ffffff;
+    font-size: 32px;
+    margin: 0 0 0 250px;
+}
+
+footer{
+    font-family: "Lucida Sans Unicode";
+    color:#ffffff;
+    font-size: 15px;
+    margin: 0 0 0 250px;
+}
+
+.area{
+    background:#ffffff;
+    color:#ffffff;
+    border: 2px solid;
+    font-size: 0;
+    margin:40px 250px 25px 250px;
+    padding:0;
+}
+
+.area li{
+    font-size: 18px;
+  }
+  
+.area:hover li{
+  opacity: 0.5;
+}
+
+li.lisbon:hover, li.paris:hover, li.belgrade:hover, li.moscow:hover, li.tel_aviv:hover, li.cair:hover,
+li.new_york:hover, li.new_delhi:hover, li.san_francisco:hover, li.tokyo:hover, li.sydney:hover{
+  opacity: 1;
+  transition: all.1s ease-in;
+}
+
+.lisbon, .paris, .belgrade, .moscow, .tel_aviv, .cair, .new_york, .new_delhi, .san_francisco, .tokyo, .sydney{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid;
+    color: rgba(255,255,255, 1);
+    font-family: "Lucida Sans Unicode";
+    font-size: 18px;
+	box-sizing: border-box;
+	max-width: 900px;
+}
+
+.lisbon{
+    width:50%;
+    background:#3399cc;
+}
+
+.paris{
+  width:25%;
+  background: #33cccc;
+}
+
+.belgrade{
+    width:25%;
+    background:#996699;
+}
+
+.moscow{
+    width:25%;
+    background:#c24747;
+}
+
+.tel_aviv{
+  width:25%;
+  background:#E2674A;
+}
+
+.cair{
+    width:25%;
+    background: #FFcc66;
+}
+
+.new_york{
+    width:25%;
+    background:#99CC99;
+}
+
+.new_delhi{
+    width:25%;
+    background: #669999;
+  }
+  
+  .san_francisco{
+      width:50%;
+      background: #cc6699;
+  }
+  
+  .tokyo{
+      width:25%;
+      background: #339966;
+  }
+
+  .sydney{
+    width:100%;
+    background:#666699;
+}
+

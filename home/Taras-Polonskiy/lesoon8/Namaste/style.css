@@ -1,0 +1,110 @@
+body{
+    background: #ffffff;
+}
+
+.text_header_1{
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(137, 143, 153);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.text_header_2{
+  font-size: 48px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: rgb(14, 200, 203);
+  text-transform: uppercase;
+  line-height: 0.625;
+  text-align: center;
+  margin: 25px 0 0 0;
+}
+
+.text_header_3{
+  font-size: 18px;
+  font-family: 'PT Sans';
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: center;
+  margin: 60px 410px 0 410px;
+}
+
+.area{
+    font-size: 0;
+    margin: 30px 0 0 200px;
+}
+
+.area li{
+  font-size: 16px;
+}
+
+.block_1, .block_2, .block_3, .block_4{
+  display: inline-block;
+  border-width: 1px;
+  border-color: rgb(236, 236, 236);
+  background-color: rgb(247, 247, 247);
+  width: 238px;
+  height: 422px;
+  
+}
+
+.text_block_1_1, .text_block_3_1, .text_block_4_1{
+  font-size: 21px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin:50px 30px 0 30px;
+}
+
+.text_block_2_1{
+    font-size: 21px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin:25px 30px 0 30px;
+}
+
+.text_block_1_2, .text_block_2_2, .text_block_3_2, .text_block_4_2 {
+    font-size: 14px;
+    font-family: 'PT Sans';
+    color: rgb(119, 119, 119);
+    line-height: 1.571;
+    text-align: center;
+    margin:20px 30px 0 30px;
+}
+
+.fa-anchor, .fa-gem, .fa-glasses, .fa-tv {
+    margin:70px 0 0 85px;   
+}
+
+.block_1:hover, .block_2:hover, .block_3:hover, .block_4:hover   {
+  background-color: #0ec8cb;
+  transition: all .3s ease-in;
+}
+
+.block_1:hover .fa-anchor, .block_1:hover .text_block_1_1, .block_1:hover .text_block_1_2 {
+  color:#ffffff;
+}
+
+.block_2:hover .fa-gem, .block_2:hover .text_block_2_1, .block_2:hover .text_block_2_2 {
+  color:#ffffff;
+}
+
+.block_3:hover .fa-glasses, .block_3:hover .text_block_3_1, .block_3:hover .text_block_3_2 {
+  color:#ffffff;
+}
+
+.block_4:hover .fa-tv, .block_4:hover .text_block_4_1, .block_4:hover .text_block_4_2 {
+  color:#ffffff;
+}
