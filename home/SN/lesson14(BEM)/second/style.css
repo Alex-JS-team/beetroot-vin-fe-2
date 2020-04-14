@@ -1,0 +1,98 @@
+@font-face {
+    font-family: myriad;
+    src: url("myriad.otf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myriad;
+}
+.container {
+    margin: 100px auto;
+    width: 700px;
+    height: 400px;
+    background-color: #111A28;
+    border-radius: 5px;
+}
+.header {
+    height: 50px;
+}
+.logo {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* padding: 30px; */
+}
+.main__img {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.main__text {
+    padding: 10px;
+    text-align: left;
+    color: #4F5560;
+}
+.label {
+    margin-top: 30px;
+}
+.label label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #E1E1E1;
+}
+.main__text__paragraph {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.main__text__span {
+    display: inline-block;
+    font-size: 24pt;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #BABCBE;
+}
+.active {
+    color: yellow;
+}
+.button-span {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #4F5560;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.span-border {
+    width: 8px;
+    height: 8px;
+    border-left: 1px solid #4F5560;
+    border-top: 1px solid #4F5560;
+    transform: rotate(-135deg);
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.button-card {
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #4F5560;
+    color: #4F5560;
+}
+.button-card:hover {
+    background-color: #202835;
+}
