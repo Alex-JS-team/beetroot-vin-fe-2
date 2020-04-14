@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: Hans;
+	font-weight: 400;
+	src: url('/fonts/HansKendrick-Regular.otf');
+}
+@font-face{
+	font-family: HansBold;
+	font-weight: 600;
+	src: url('/fonts/HansKendrick-Regular.otf');
+}
+main{
+	background-color: #e2e7ec;
+}
+.container{
+	margin: 0 auto;
+	position: relative;
+	max-width: 1120px;
+	width: 100%;
+}
+.main-body{
+	font-family: Hans;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px 0 80px;
+}
+.main-body .item-width{
+    max-width: 360px;
+	background-color: #fff;
+	margin-top: 15px;
+}
+.item-width .main-body__img{
+    max-width: 100%;
+    height: auto;
+}
+.main-body__item:first-child{
+	background-image: url('/images/img3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 739px;
+	width: 100%;
+	padding-bottom: 47%;
+	position: relative;
+	margin-top: 15px;
+}
+.main-body__item:first-child:before{
+	display: block;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	max-width: 740px;
+	width: 100%;
+	padding-top: 45%;
+	background-image: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+}
+.main-date{
+	padding: 0 25px;
+}
+.main-date:first-child{
+	position: absolute;
+	left: 0;
+	bottom: 40px;
+	padding-left: 40px;
+	max-width: 455px;
+}
+.main-date__text{
+	font-size: 13px;
+	color: #ffffff;
+}
+.main-date .fc{
+	color: #818181;
+	padding: 20px 0;
+}
+.main-date__title{
+	font-size: 30px;
+	color: #fff;
+	margin-top: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.main-date .font-color-title{
+	font-size: 22px;
+	color: #1d1d1d;
+}
+.main-body__photo{
+    padding: 65px 0 25px 20px;
+	width: 70px;
+	height: auto;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    font-family:Hans;
+}
+.loading__title{
+    color: #99a5b0;
+    font-size: 12px;
+    margin-left: 8px;
+}

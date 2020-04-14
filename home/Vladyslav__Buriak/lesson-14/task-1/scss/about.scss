@@ -1,0 +1,32 @@
+.about{
+	background-image: radial-gradient(circle at center, #00c3c3 0%, #00b8b7 32%, #00afae 68%, #009f9f 100%);
+	.about-body{
+        @include flex($row,space-between,none);
+        
+        @media(max-width:768px){
+           @include flex($col,center,center);
+        }
+	
+		&__img{
+			max-width: 550px;
+			width: 100%;
+			height: 550px;
+            display: block;
+            
+			@media(max-width: 992px){
+				 width: 50%;
+        		 height: 400px;
+            }
+            @media(max-width: 568px){
+                width: 40%;
+                height: 300px;
+           }
+		}
+		
+            
+			.title,.sub-title--white{
+	            color: #fff;
+			}
+		
+	}
+}

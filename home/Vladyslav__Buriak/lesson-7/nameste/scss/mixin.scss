@@ -1,0 +1,45 @@
+@mixin container{
+    max-width: 940px;
+    box-sizing: border-box;
+    position: relative;
+    margin:  0 auto;
+}
+
+@mixin fonts($fz,$fc){
+    font-size: $fz;
+    color: $fc;
+    font-family:$ff;
+    font-weight:$fw;
+}
+
+@mixin flex($row,$rowCent,$colCent) {
+    display: $flex;
+    flex-direction: $row;
+    justify-content: $rowCent;
+    align-items: $colCent;
+}
+
+@mixin wh($w100,$h100){
+    width: $w100;
+    height: $h100;
+}
+
+@mixin padd($padding-xxl,$padding-base,$padding-xl,$padding-sm){
+    padding-top: $padding-xxl;
+    padding-left: $padding-base;
+    padding-right: $padding-xl;
+    padding-bottom: $padding-sm;
+}
+
+@mixin  marg($margin-base,$margin-none) {
+    margin-top: $margin-base;
+    margin-left: $margin-none;
+    margin-right: $margin-none;
+    margin-bottom: $margin-base;
+}
+
+@mixin text($textCenter,$letSpace,$uppercase) {
+    text-align: $textCenter;
+    letter-spacing: $letSpace;
+    text-transform: $uppercase;
+}

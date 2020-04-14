@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'proxima nova';
+    src:url("../Proxima\ Nova/Proxima Nova Light.otf");
+}
+
+main{
+    color: #E2E2E2;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 20px 85px 70px;
+    font-family: 'proxima nova';
+    margin-top: 30px;
+    box-shadow: 2px 4px 18px 0px rgba(0,0,0,0.75);
+}
+@media(max-width:992px){
+    main{
+        max-width: 750px;
+    }
+}
+@media(max-width:768px){
+    main{
+        max-width: none;
+        padding: 20px 55px 40px;
+    }
+}
+@media(max-width:576px){
+    main{
+        max-width: none;
+        padding: 20px;
+    }
+}
+.main__title{
+    color: #000;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.main-article__p::first-letter{
+    font-size: 85px;
+    color:#000;
+    float: left;
+    margin-top:25px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+@media(max-width:576px){
+    .main-article__p{
+        font-size: 14px;
+    }
+}
+.blockquote__text{
+    font-size: 20px;
+}
+span{
+    font-size: 45px;
+}
+p{
+    line-height: 25px;
+    padding-top: 15px;
+}
+.main__btn{
+    padding: 20px 75px;
+    border: 2px solid #EAA258;
+    background-color: #fff;
+    outline: none;
+    margin-top: 30px;
+    display: block;
+}
+@media(max-width:768px){
+    .main__btn{
+        margin: 30px auto 0;
+    }
+}
+.main__btn:active{
+    border: none;
+}
+.main__btn:hover{
+    background-color:#EAA258;
+    transition: all ease 1s;
+}
+.main__btn a{
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #EAA258;
+}
+.main__btn a:hover{
+    color: #fff;
+    transition: all ease 1s;
+}
+
+
+
+

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+span{
+    display: block;
+}
+
+.container{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1170px;
+    font-family: Trebuchet, Arial, sans-serif;
+    box-sizing: border-box;
+}
+.header-body,.main-body__rewiev{
+    background-color: #4A4F56;
+    color: #E87672;
+    text-align: center;
+    padding: 20px;
+}
+.header-body__sub-title{
+    margin-top: 5px;
+}
+

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Lucida;
+    src: url('/fonts/lucida\ sans\ unicode.ttf');
+}
+@font-face{
+    font-family: Lucida2;
+    src: url('/fonts/8291.ttf')
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #3399CC;
+    color: #fff;
+    font-family: Lucida2 ;
+}
+.weather{
+    background-color: #2B81AC;
+}
+.weather-body{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 80px;
+}
+.weather-body__title{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.forecast{
+    list-style: none;
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+ul:hover li{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition:.5s;
+}
+.forecast__item{
+    display: inline-block;
+    width: 25%;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 20px 0 10px;
+    cursor: pointer;
+}
+li:first-child,li:nth-child(9){
+    width: 50%;
+}
+li:last-child{
+    width: 100%;
+}
+li:first-child:hover{
+    background-color: #3399CC;
+}
+li:nth-child(2){
+    background-color: #33CCCC;
+}
+li:nth-child(2):hover{
+    background-color:#33CCCC ;
+}
+li:nth-child(3){
+    background-color: #996699;
+}
+li:nth-child(3):hover{
+    background-color:#996699;
+}
+li:nth-child(4){
+    background-color: #C24747;
+}
+li:nth-child(4):hover{
+    background-color:#C24747;
+}
+li:nth-child(5){
+    background-color: #E2674A;
+}
+li:nth-child(5):hover{
+    background-color:#E2674A;
+}
+li:nth-child(6){
+    background-color: #FFCC66;
+}
+li:nth-child(6):hover{
+    background-color:#FFCC66;
+}
+li:nth-child(7){
+    background-color: #99CC99;
+}
+li:nth-child(7):hover{
+    background-color:#99CC99;
+}
+li:nth-child(8){
+    background-color: #669999;
+}
+li:nth-child(8):hover{
+    background-color:#669999;
+}
+li:nth-child(9){
+    background-color: #CC6699;
+}
+li:nth-child(9):hover{
+    background-color: #CC6699;
+}
+li:nth-child(10){
+    background-color: #339966;
+}
+li:nth-child(10):hover{
+    background-color: #339966;
+}
+li:nth-child(11){
+    background-color: #666699;
+}
+li:nth-child(11):hover{
+    background-color: #666699;
+}
+.forecast__title{
+    font-size: 16px;
+    font-weight: 400;
+}
+.forecast__info{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.forecast p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.forecast img{
+    max-width: 40px;
+    height: 40px;
+}
+.weather-body__text{
+    font-size: 14px;
+    margin-top: 15px;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Museo100';
+    src: url('/fonts/MuseoSansRounded-100.woff') format('woff'),
+       url('/fonts/MuseoSansRounded-100.woff2')format('woff2')
+}
+@font-face {
+    font-family: 'Museo300';
+    src: url('/fonts/MuseoSansRounded-300\ \(1\).woff') format('woff'),
+        url('/fonts/MuseoSansRounded-300.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Museo700';
+    src: url('/fonts/MuseoSansRounded-700.woff') format('woff'),
+        url('/fonts/MuseoSansRounded-700.woff2') format('woff2');
+}
+

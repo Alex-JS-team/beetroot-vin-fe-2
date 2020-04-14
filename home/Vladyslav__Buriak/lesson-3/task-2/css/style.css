@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'proxima nova';
+    src: url('../Proxima\ Nova/Proxima Nova Regular.otf');
+}
+
+@font-face{
+    font-family: 'futura pt';
+    src: url('../Proxima\ Nova/FuturaPT-Bold.ttf');
+}
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1200px;
+    background-color: #464F54;
+    position: relative;
+}
+
+@media(max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media(max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media(max-width:767px){
+    .container{
+        max-width: none;
+    }
+}
+

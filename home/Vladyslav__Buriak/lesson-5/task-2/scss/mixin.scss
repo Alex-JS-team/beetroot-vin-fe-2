@@ -1,0 +1,26 @@
+@mixin container{
+    max-width: 1170px;
+    box-sizing: border-box;
+    position: relative;
+    margin:  0 auto;
+}
+
+@mixin fonts($fz,$fc){
+    font-size: $fz;
+    color: $fc;
+    font-family:$ff;
+    font-weight:$fw;
+}
+
+@mixin flex($row,$rowCent,$colCent) {
+    display: $flex;
+    flex-direction: $row;
+    justify-content: $rowCent;
+    align-items: $colCent;
+}
+
+
+@mixin wh($w100,$h100){
+    width: $w100;
+    height: $h100;
+}
