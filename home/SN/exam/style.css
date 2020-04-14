@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+@font-face {
+  font-family: "Aleo";
+  src: url(fonts/Aleo-Font/Desktop/Aleo-Regular.otf);
+}
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header {
+  height: 80vh;
+  background: url("img/bg-header.png") no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header__tittle {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  letter-spacing: 4.8px;
+}
+.header__sub {
+  margin-top: 0;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 6.82px;
+}
+.header__input-button {
+  margin-top: 80px;
+  width: 400px;
+}
+.header__input-button__input {
+  font-size: 17px;
+  float: left;
+  width: 70%;
+  height: 40px;
+  background: #f1f1f1;
+  text-align: center;
+  border: none;
+}
+.header__input-button__button {
+  float: left;
+  width: 30%;
+  height: 40px;
+  background: #2196F3;
+  border: none;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+.header__input-button__button .fa-search {
+  margin-left: 7px;
+}
+.header__drop {
+  margin-top: 100px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.navigation {
+  margin: 0 auto;
+  height: 70px;
+  background-color: #5474fd;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-transform: uppercase;
+  align-items: center;
+}
+.navigation__logo {
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+}
+.navigation__list {
+  list-style-type: none;
+}
+.navigation__list__items {
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 10px;
+  font-family: "Aleo";
+  font-weight: normal;
+}
+
+.btn {
+  border: none;
+  background-color: #5474fd;
+  width: 150px;
+  height: 40px;
+  color: white;
+}
+
+.wy-choose {
+  height: 70vh;
+  background: url("img/bg-why__choose.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+.wy-choose__text__tittle {
+  margin-top: 10rem;
+  font-size: 36px;
+  font-family: "Aleo";
+  font-weight: normal;
+}
+.wy-choose__text__paragraph {
+  letter-spacing: 1.6px;
+  font-size: 12px;
+}
+.wy-choose__img {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.wy-choose__img__first {
+  width: 80%;
+}
+.wy-choose__img__second {
+  margin-top: 3px;
+  width: 80%;
+  align-self: center;
+}
+
+.how-works {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+}
+.how-works__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.how-works__item__img {
+  width: 50px;
+}
+.how-works__item__text {
+  color: white;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: "Aleo";
+  font-weight: normal;
+}
+
+.grand-first {
+  height: 50vh;
+  background: url(img/bg-first__grand.png);
+  display: flex;
+  align-items: center;
+}
+.grand-first__text {
+  margin: 100px;
+  width: 40%;
+  height: 70%;
+  background-color: #232323;
+  opacity: 0.9;
+  padding: 10px;
+  color: white;
+}
+.grand-first__text__tittle {
+  font-size: 22px;
+  font-weight: normal;
+}
+.grand-first__text__paragraph {
+  font-size: 12px;
+}
+
+.grand-second {
+  height: 50vh;
+  background: url(img/bg-second__grand.png);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.grand-second__text {
+  margin: 100px;
+  width: 40%;
+  height: 70%;
+  background-color: #232323;
+  opacity: 0.9;
+  padding: 10px;
+  color: white;
+}
+.grand-second__text__tittle {
+  font-size: 22px;
+  font-weight: normal;
+}
+.grand-second__text__paragraph {
+  font-size: 12px;
+}
+
+.what-our {
+  background: url("img/bg-what__our.png") no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.what-our__tittle {
+  font-size: 40px;
+  font-family: "Aleo";
+  font-weight: normal;
+}
+.what-our__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.what-our__card__img {
+  width: 30%;
+  height: 100%;
+}
+.what-our__card__text {
+  background-color: #333333;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
+}
+.what-our__card__text__span {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.what-our__card__text__paragraph {
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #232323;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.footer__logo {
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 3.36px;
+}
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  margin-left: 20px;
+}
+
+.fab {
+  color: #fff;
+}
+.fab:hover {
+  color: #5474fd;
+}
