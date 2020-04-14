@@ -1,0 +1,88 @@
+@font-face {
+font-family: 'Miso';
+font-style: normal;
+font-weight: normal;
+src: local('Miso'), url('/L10/fonts/miso.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Miso Light';
+font-style: normal;
+font-weight: normal;
+src: local('Miso Light'), url('/L10/fonts/miso-light.woff') format('woff');
+}
+@font-face {
+font-family: 'Miso Light';
+font-style: normal;
+font-weight: normal;
+src: local('Miso Light'), url('/L10/fonts/miso-light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Miso Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Miso Bold'), url('/L10/fonts/miso-bold.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 0em;
+    transition: all .1s ease-in;
+
+}
+
+.main{
+    background-color: #FDDE7E;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.inner{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+}
+
+h1{
+    font-size: 70px !important;
+    font-family: "Miso Bold";
+    color: rgb(2, 153, 91);
+    text-align: center;
+}
+
+h2{
+    font-size: 56px;
+    font-family: "Miso";
+    color: rgb(51, 51, 51);
+    text-align: center;
+    font-weight: normal;
+    margin: 20px;
+    }
+
+p{
+    font-size: 20px;
+    font-family: "Lato";
+    font-weight: normal;
+    color: #646464;
+    text-align: center;
+    margin: 30px;
+
+    }
+img{
+    background-color: black;
+    opacity: 1;
+}
+
+.inner:hover{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+

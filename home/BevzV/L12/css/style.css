@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url(/L12/images/Photo\ Filter\ 1.png);
+    /* padding: 45px 80px 45px 80px !important; */
+    margin: 0 !important;
+}
+
+.header__title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: rgb(96, 96, 110);
+    padding-top: 15%;
+    padding-bottom: 5px;
+}
+
+.header__subtitle{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(96, 96, 110);
+    padding-bottom: 10%;
+
+}
+
+.text__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 1.6;
+    color: rgb(96, 96, 110);
+}
+
+.text__subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(96, 96, 110);
+    text-transform: uppercase;
+    padding: 6px 0 12px 0;
+}
+
+.text__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(96, 96, 110);
+    line-height: 2.1;
+}
+main{
+    padding: 150px 80px 150px 80px;
+}
+
+.navbar{
+    background-color: transparent !important;
+    background: transparent;
+
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+
