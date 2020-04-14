@@ -1,0 +1,108 @@
+/*Шрифти*/
+@font-face{
+    font-family: "Lucida Sans Unicode";
+    src: url(fonts/montserrat.woff);
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Lucida Grande";
+    src:url(fonts/montserratbold.woff);
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+body{
+    font-family: "Lucida Grande", sans-serif;
+    background-color: #0082AF;
+    color: white;
+    font-size: 1em;
+}
+.wrapper{
+    margin: 1%;
+    background-color: #009ACF;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+h1,.footer{
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: "Lucida Sans Unicode", sans-serif;
+}
+/*Градуси*/
+span::after{
+    content: "\2103";    
+}
+ul{ padding: 0;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+.city{
+    font-size: 20px;
+    display: inline-block;
+    border: 3px solid white;
+    height: 25%;
+}
+/*Розмір елементів*/
+.city_weight25{
+    width: 25%;
+}
+.city_weight50{
+    width: 50%;
+}
+.city_weight100{
+    width: 100%;
+}
+.city p:nth-child(2){
+    opacity: 50%;
+}
+/*колір елементів*/
+.city_id2{
+background-color: #00CDCD;
+}
+.city_id3{
+    background-color: #AA669C;
+}
+.city_id4{
+    background-color: #E04545;
+}
+.city_id5{
+    background-color: #FF6747;
+}
+.city_id6{
+background-color:#FFCD5E;
+}
+.city_id7{
+    background-color:#7FCD98;
+}
+.city_id8{
+    background-color:#439A9A;
+}
+.city_id9{
+    background-color:#E7669C;
+}
+.city_id10{
+    background-color:#009A63;
+}
+.city_id11{
+    background-color:#66669C;
+}
+/*ховер елементів*/
+ul:hover > li:not(:hover){
+    opacity: 0.5;
+}
+/*вирівнювання елементів*/
+.city_id3~.city{
+    margin-top: -3px;
+}
+.city_id2,.city_id3,.city_id5,.city_id6,.city_id7,.city_id9,.city_id10{
+    margin-left: -3px;
+    width: calc(25% + 3px);
+}
+.city_id9{
+    width: calc(50% + 3px);
+}
+

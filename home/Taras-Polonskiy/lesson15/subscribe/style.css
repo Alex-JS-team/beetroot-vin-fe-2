@@ -1,0 +1,52 @@
+.bg-subscribe{
+	background:url(img/bg-subscribe.png) no-repeat;
+	display:grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: repeat(3, 1fr);
+	padding: 145px 0 162px 165px;
+}
+
+.container-subs__text-header{
+  font-size: 40px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+  line-height: 0.675;
+}
+
+.container-subs__text-1{
+  font-size: 17px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  line-height: 1.588;
+  padding-right: 450px;
+}
+
+.input-form{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(38, 38, 38);
+  background-color: rgba(38, 38, 38, 0);
+  width: 500px;
+  height: 52px;
+}
+
+.input-button{
+  background-color: rgb(150, 185, 44);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  width: 170px;
+  height: 55px;
+  font-size: 20px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  line-height: 1.35;
+  outline: none;
+  border:0;
+
+}
+
+.input-button:hover{
+	background-color:#566783;
+	color:#96b92c;
+}
+	

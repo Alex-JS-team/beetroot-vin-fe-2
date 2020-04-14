@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("./font/MyriadProRegular/MyriadProRegular.eot");
+    src: url("./font/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("./font/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("./font/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    color: white;
+}
+
+.page{
+    width: 1550px;
+    height: 283px;
+    background: url('./img/12ColGrid.png') no-repeat center center;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    width: 300px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.title{
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: MyriadProRegular;
+    position: absolute;
+}
+.text{
+    color: #9d9d9d;
+    font-family: MyriadProRegular;
+    font-size: 14px;
+    text-align: center;
+    top: 150px;
+    left: 15px;
+    position: absolute;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+}
+.logo:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.in-logo{
+    position: absolute;
+    left: 20px;
+    top: 16px;
+}
+.in-logo:hover {
+    background-color: #2a69a6;
+    opacity: 0.6;
+}
+

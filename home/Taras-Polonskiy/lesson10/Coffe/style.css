@@ -1,0 +1,76 @@
+.container{
+	display: flex;
+	padding: 5px;
+	background:#fdde7e;
+	width: 1200px;
+	height: 600px;
+  margin:0 auto;
+  flex-direction:row;
+  align-items: center;
+}
+
+.block{
+  display:flex;
+  flex: 1 1 auto;
+  margin: 5px;
+  background: #ffffff;
+  width: 360px;
+  height: 441px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  flex-direction:column;
+  align-items: center;
+}
+
+.block:hover{
+  width:361px;
+  height:500px;
+  transition: all .1s ease-in;
+}
+
+.money{
+  font-size: 70px;
+  font-family: 'Miso Regular';
+  color: rgb(2, 153, 91);
+  font-weight: bold;
+  line-height: 0.343;
+  margin-bottom: 50px;
+}
+
+.smoke{
+  width: 49px;
+  height: 46px;
+}
+
+.cup, .cup_2, .cup_3{
+  background: url(img/cup.png);
+  width: 135px;
+  height: 77px;
+  margin-left: 20px;
+}
+
+.cup_2{
+  background: url(img/cup_2.png);
+}
+
+.cup_3{
+  background: url(img/cup_3.png);
+}
+
+.bean{
+  width: 36px;
+  height: 45px;
+  margin: 15px 0 0 40px;
+}
+
+.text, .text_2{
+  font-size: 56px;
+  font-family: 'Miso Regular';
+  color: rgb(51, 51, 51);
+  line-height: 0.429;
+  margin: 15px 0 0 0; 
+}
+
+.text_2{
+  font-size: 22px;
+  margin: 35px 100px 0 100px;
+}

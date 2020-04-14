@@ -1,0 +1,132 @@
+body{
+	margin:0;
+}
+
+.container{
+	background:url(img/background.png) no-repeat 100%;
+	background-size: contain;
+	width: 400px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.block_1{
+	display:grid;
+	grid-template-columns: 40% 60%;
+}
+
+.menu_1, .menu_2{
+  position:relative;
+  font-size: 18px;
+  font-family: "Quicksand";
+  color: rgb(251, 246, 228);
+  line-height: 1.2;
+}
+
+.menu_1{
+	margin: 70px 0 0 90px;	
+}
+
+.menu_2{
+	margin: 70px 0 0 0;
+}
+
+.border_1, .border_2{
+  position:absolute;
+  display:none;
+  background-color: rgb(230, 106, 100);
+  width: 55px;
+  height: 2px;
+  margin:3px 0 0 0;
+}
+
+.menu_1:hover .border_1, .menu_2:hover .border_2{
+display:block;
+}
+
+form{
+  margin: 50px 0 0 90px;
+}
+
+.first_name, .password{
+  font-size: 16px;
+  font-family: "Quicksand";
+  color: rgb(251, 246, 228);
+  line-height: 1.2;
+  margin-bottom:5px;
+}
+
+.forma{
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(191, 185, 204);
+  background-color: rgba(229, 238, 238, 0);
+  opacity: 0.54;
+  width: 220px;
+  height: 32px;
+}
+
+.checkbox{
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox_text{
+  font-size: 13px;
+  font-family: "Quicksand";
+  color: rgb(251, 246, 228);
+  line-height: 1.2;
+}
+
+button{
+  background-color: rgb(35, 174, 146);
+  width: 220px;
+  height: 42px;
+  border:none;
+  margin-top:10px;
+  font-size: 16px;
+  font-family: "Quicksand";
+  color: rgb(251, 246, 228);
+  line-height: 1.2;
+}
+
+button:hover{
+	opacity:0.8;
+}
+
+.block_2{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.menu_3, .menu_4{
+  position:relative;
+  font-size: 11px;
+  font-family: "Quicksand";
+  color: rgb(185, 185, 204);
+  line-height: 1.2;
+}
+
+.menu_3{
+	margin: 20px 0 0 90px;
+}
+
+.menu_4{
+	margin: 20px 0 0 15px;
+}
+
+.border_3, .border_4{
+  position:absolute;
+  display:none;
+  background-color: rgb(150, 193, 218);
+  margin:3px 0 0 0;
+  opacity: 0.149;
+  width: 90px;
+  height: 1px;
+}
+
+.menu_3:hover .border_3, .menu_4:hover .border_4{
+display:block;
+transition: all.1s ease-in;
+}
+

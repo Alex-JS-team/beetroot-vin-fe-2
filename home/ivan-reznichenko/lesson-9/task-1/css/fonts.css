@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Bold.ttf.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url(../fonts/Pacifico-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+

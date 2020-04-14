@@ -1,0 +1,101 @@
+.grid-container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-areas: "first-item first-item second-item" "first-item first-item third-item" "fourth-item fifth-item six-item";
+  grid-gap: 20px 20px;
+}
+.first-item {
+  grid-area: first-item;
+  background: url("img/1.png");
+  background-size: cover;
+}
+.second-item {
+  grid-area: second-item;
+  background: url("img/2.png");
+  background-size: cover;
+}
+
+.third-item {
+  grid-area: third-item;
+  background: url("img/3.png");
+  background-size: cover;
+}
+
+.fourth-item {
+  grid-area: fourth-item;
+  background: url("img/4.png");
+  background-size: cover;
+}
+
+.fifth-item {
+  grid-area: fifth-item;
+  background: url("img/5.png");
+  background-size: cover;
+}
+
+.six-item {
+  grid-area: six-item;
+  background: url("img/5.png");
+  background-size: cover;
+}
+
+.grid-container-2 {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 235px 235px 235px 235px;
+  grid-template-rows: 200px 200px;
+  grid-template-areas: "div-1 div-2 div-3 div-4" "div-5 div-6 div-7 div-8";
+}
+.grid-container-2:hover > div:not(:hover) {
+  opacity: 0.7;
+}
+.div-1 { 
+  grid-area: 
+  div-1; 
+  background: url("img/5.png");
+  background-size: cover;
+}
+
+.div-2 {
+  grid-area: div-2;
+  background: url("img/5.png");
+  background-size: cover;
+}
+
+.div-3 {
+  grid-area: div-3;
+  background: url("img/5.png");
+  background-size: cover;
+}
+
+.div-4 {
+  grid-area: div-4;
+  background: url("img/5.png");
+  background-size: cover;
+}
+
+.div-5 {
+  grid-area: div-5;
+  background: url("img/5.png");
+  background-size: cover;
+}
+
+.div06 {
+  grid-area: div-6;
+  background: url("img/5.png");
+  background-size: cover;
+}
+
+.div-7 {
+  grid-area: div-7;
+  background: url("img/5.png");
+  background-size: cover;
+}
+
+.div-8 {
+  grid-area: div-8;
+  background: url("img/5.png");
+  background-size: cover;
+}

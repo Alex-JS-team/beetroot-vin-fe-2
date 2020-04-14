@@ -1,0 +1,83 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url(fonts/montserrat.woff);
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Montserrat";
+    src:url(fonts/montserratbold.woff);
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+header{
+    margin: auto;
+    width: 540px;
+    height: 190px;
+    text-transform: uppercase;
+}
+section{
+    margin-top: 100px;
+}
+header h1{
+    font-size: 48px;
+    font-family: "Montserrat";
+    font-weight: normal;
+    letter-spacing: .1em;
+    color: rgb(14, 200, 203);
+    text-transform: uppercase;
+}
+header p{
+    font-size: 18px;
+    font-family: "PTSans";
+    opacity: .5;
+}
+.header{
+    font-family: "Monrserrat";
+    font-weight: bold;
+    font-size: 14px;
+    opacity: .5;
+    letter-spacing: 0.4em;   
+}
+.menu{
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+li{
+    padding-left: 35px;
+    padding-right: 35px;
+    display: inline-block;
+    height: 420px;
+    width: 25%;
+}
+.icon{
+    font-size: 68px;
+}
+.title{
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.sized{
+    margin-top: -25.5px;
+}
+.description{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    opacity: .5;
+}
+li:hover{
+    background-color: #0ec8cb;
+    opacity: 1;
+    color: white;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display&display=swap');
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+.first-p::first-letter {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.first-p {
+    font-family: 'Lato', sans-serif;
+}
+.second-p {
+    font-style: italic;
+}
+button {
+    border-right: 1px solid #eaa258;
+    border-bottom: 1px solid #eaa258;
+    border-left: 1px solid #eaa258;
+    color: #eaa258;
+    background-color: white;
+    border-top: none;
+    width: 15%;
+    padding: 10px;
+}

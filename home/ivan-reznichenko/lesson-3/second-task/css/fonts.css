@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "ProximaNova";
+    src: url(../fonts/ProximaNova-Regular.eot);
+    src: url(../fonts/ProximaNova-Regular.woff);
+    src: url(../fonts/ProximaNova-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(../fonts/PlayfairDisplay-Regular.eot);
+    src: url(../fonts/PlayfairDisplay-Regular.otf);
+    src: url(../fonts/PlayfairDisplay-Regular.svg);
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+    src: url(../fonts/PlayfairDisplay-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Georgia";
+    src: url(../fonts/Georgia-regular.eot);
+    src: url(../fonts/Georgia-regular.otf);
+    src: url(../fonts/Georgia-regular.svg);
+    src: url(../fonts/Georgia-regular.ttf);
+    src: url(../fonts/Georgia-regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Georgia";
+    src: url(../fonts/Georgia-regular-italic.eot);
+    src: url(../fonts/Georgia-regular-italic.otf);
+    src: url(../fonts/Georgia-regular-italic.svg);
+    src: url(../fonts/Georgia-regular-italic.ttf);
+    src: url(../fonts/Georgia-regular-italic.woff);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Futura PT Heavy";
+    src: url(../fonts/Futura-PT-Heavy.eot);
+    src: url(../fonts/Futura-PT-Heavy.otf);
+    src: url(../fonts/Futura-PT-Heavy.svg);
+    src: url(../fonts/Futura-PT-Heavy.ttf);
+    src: url(../fonts/Futura-PT-Heavy.woff);
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,108 @@
+body{
+    background-color: #464f54;
+}
+.inside{
+    box-shadow: 0 0 35px black;
+    background-color:white;
+    margin: 149px 70px 0px 70px;
+    padding: 202px 130px 0px 125px ;
+}
+.roy {
+    color: #b4b4b4;
+    font-family: "ProximaNova";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.article {
+    margin-top: 47px;
+}
+.art-title {
+    color: #2a2a2a;
+    font-family: "Futura PT Heavy";
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 73px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.art-subtitle {
+    color: #8f8f8f;
+    font-family: "Georgia";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 62px;
+}
+.main-txt {
+    margin-top: 55px;
+    color: black;
+    font-family: "Georgia";
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.italic-txt {
+    display: inline;
+    font-style: italic;
+}
+.mt-first {
+    margin-bottom: 39px;
+}
+.title {
+    position: relative;
+    bottom: 102px;    
+}
+.first {
+    position: absolute;
+    right: 0px; 
+    width: 876px;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+}
+.first-title {
+    color: #767676;
+    font-family: "ProximaNova";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-left: 63px;
+}
+.first-subtitle {
+    position: relative;
+    color: #fefefe;
+    font-family: "PlayfairDisplay";
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 13px;
+    margin-left: 64px;
+    margin-bottom: 74px;
+}
+.first-subtitle::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: -21px;
+    opacity: 0.1;
+    left: 0px;
+}
+.second {
+    position: absolute;
+    right: 0px;
+    bottom: -293px;
+    width: 770px;
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+    background-color: #fbc02d;
+    padding-left: 42px;
+}
+.second-items {
+    display: inline-block;
+    margin-right: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}

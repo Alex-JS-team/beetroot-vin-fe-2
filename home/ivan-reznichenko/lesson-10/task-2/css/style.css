@@ -1,0 +1,92 @@
+.outer {
+    display: flex;
+    justify-content: center;
+    padding: 90px 240px 0px 240px;
+    background-color: #e2e7ec;
+}
+.inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+}
+.first-line {
+    display: flex;
+    flex-grow: 1;
+}
+.second-line {
+    display: flex;
+    margin-top: 20px;
+}
+.big-card {
+    margin-right: 20px;
+    max-width: 740px;
+    display: flex;
+    flex-grow: 2;
+    position: relative;    
+}
+.car-img {
+    overflow: hidden;
+}
+.car-img img {
+    width: auto;
+    height: 100%;
+}
+.big-card-text {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.cd-title {
+    color: #818181;
+    font-family: "HansKendrick";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.ct-subtitle {
+    width: 66%;
+    color: #ffffff;
+    font-family: "HansKendrick";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.big-card::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+}
+.card {
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;    
+}
+.card-center {
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    max-width: 360px; 
+    margin: 0px 20px;
+}
+.small-card-text {
+    margin: 25px;
+}
+.small-subtitle {
+    color: #1d1d1d;
+    font-family: "HansKendrick";
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.small-card-text img {
+    margin-top: 70px;
+}

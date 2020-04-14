@@ -1,0 +1,40 @@
+body{
+    background: #121116;
+}
+
+.logo{
+    margin: 180px 0 0 615px;
+}
+
+.text{
+  font-size: 20px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin: 30px 0 5px 15px;
+}
+
+.line{
+margin:0 0 0 567px;
+height: 1px;
+}
+
+.social{
+    display:grid;
+    grid-template-columns: repeat(4, 14px);
+    grid-gap: 34px;
+    margin: 30px 0 0 600px;
+}
+
+footer{
+  font-size: 15px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  margin:50px 0 0 570px;
+}
+
+.kasper{
+    color:#00c7fc;
+}

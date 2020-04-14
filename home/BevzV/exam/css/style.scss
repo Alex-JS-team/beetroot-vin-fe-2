@@ -1,0 +1,509 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: ease .2s all;
+}
+
+body{
+    background-color: rgb(77, 74, 74);
+}
+
+@mixin xs {
+    @media (max-width: 576px){
+        @content;
+    }
+}
+  
+@mixin sm {
+@media (min-width: 576px){
+    @content;
+    }
+}
+
+@mixin md {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+.row{
+    margin: 0;
+}
+
+header{
+    
+
+    background: url(/images/11.png) no-repeat;
+    // background-size: 100%;
+    text-align: center;
+    padding: 20% 20% 0 20%;
+
+    @include xs {
+        padding: 70% 15% 0 15%;
+    }
+
+
+}
+
+.header{
+&__scroller{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    line-height: 26ps;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 30%;
+
+    @include xs {
+        padding-top: 96%;
+        padding-bottom: 70%;
+    }
+&-text{
+    margin: 1em;
+    
+}
+
+}
+
+&__footer{
+    padding: 0em;
+    margin: 0em;
+}
+
+}
+
+.nav{
+&-link{
+    font-size: 14px;
+    line-height: 26px;
+    color: #ffffff !important;
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+
+}
+&bar{
+    background-color: #5474fd !important;
+    padding: 1% 10% 1% 10%;
+
+    &-toggler{
+        border: none;
+    }
+
+    @include xs{
+        padding: 10% 2% 10% 2%;
+        margin-top: -31px ;
+    }
+
+}
+}
+
+.title{
+    font-size: 48px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin: 0;
+
+    @include xs{
+        font-size: 24px;
+    }
+
+}
+
+.subtitle{
+    font-size: 22px;
+    letter-spacing: 6.5px;
+    line-height: 26px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+    @include xs {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}
+
+#search-full{
+    display: none;
+
+    @include lg {
+        display: block;
+    }
+}
+
+#search-part{
+    display: none;
+
+    @include xs {
+        display: block;
+    }
+
+    @include sm {
+        display: block;
+    }
+
+    @include lg{
+        display: none;
+    }
+}
+
+.form{
+    padding: 2% 10% 10% 12%;
+
+    @include xs {
+        padding: 2% 0 10% 2%;
+    }
+
+    &__control{
+        margin: 0 !important;
+        border-radius: 0em;
+        text-align: center;
+        font-size: 14px;
+        line-height: 26px;
+        color: #999999;
+        font-family: 'Josefin Sans', sans-serif;
+        border: none;
+        
+
+    }
+
+    &__btn{
+        border-radius: 0em;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        color: #ffffff ;
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        background-color: #5474fd;
+        padding-right: 7px;
+        padding-left: 10px;
+        padding: 3px 7px 4px 10px;
+        border: 1px solid white ;
+
+
+    }
+}
+
+.search{
+    @include xs {
+        display: none;
+    }
+
+    @include sm {
+        display: none;
+    }
+
+    @include lg{
+        display: inline;
+    }
+}
+
+.logo{
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+  }
+
+.card{
+    background-color: transparent;
+    border: none;
+
+
+    &-body{
+        margin: 0;
+        padding: 0em;
+    }
+    &-country{
+        background-color: rgba(35, 35, 35, 0.902);
+        padding: 35px;
+        border-radius: 0em;
+    }
+    &-upper-title{
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 26px;
+        color: #e8e8e8;
+        font-family: "Josefin Sans", sans-serif;
+        padding-bottom: 30px;
+    }
+
+    &-title{
+        font-size: 36px;
+        line-height: 26px;
+        color: #ffffff ;
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        padding: 50px 0 50px 0;
+
+        @include xs {
+            font-size: 24px;
+        }
+        
+        &--padding{
+            padding: 0 0 20px;
+            font-size: 20px;
+            line-height: 26px;
+            color: white;
+            font-family: "Josefin Sans", sans-serif;
+        }
+    }
+
+    &-text{
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 26px;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        padding-bottom: 30px;
+    }
+
+    &-btn{
+        border-radius: 0em;
+        background-color: #5474fd;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #ffffff ;
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        padding: 20px 30px 20px 30px;
+        width: 47%;
+
+        @include xs {
+            width: 100%;
+        }
+
+        &--margin{
+            margin: 20px 0 20px 0;
+        }
+    }
+}
+
+section{
+  padding: 7% 10% 7% 10%;
+
+  @include xs {
+      padding: 15% 2% 15% 2%;
+  }
+
+}
+
+.why-us{
+    margin: 0;
+  background: url(/images/Rectangle7.png) no-repeat;
+
+}
+
+.section{
+    
+    &-footer{
+        background-color: #333333;
+        padding: 5% 10% 5% 10%;
+        text-align: center;
+        &-container{
+            &__text{
+                font-size: 36px;
+                line-height: 26px;
+                color: #e8e8e8 ;
+                font-family: 'Aleo', serif;
+                font-weight: 400;
+                padding-top: 30px;
+
+                @include xs {
+                    font-size: 22px;
+                }
+
+            }
+        }
+    }
+}
+
+.country-first{
+    background: url(/images/Rectangle414.png) no-repeat;
+    size: 100%;
+    margin: 0;
+    padding-top: 11%;
+
+    @include xs {
+        padding: 0;
+    }
+
+}
+
+.country-second{
+    background: url(/images/Rectangle4141.png) no-repeat; 
+    margin: 0;
+    padding-top: 11%;
+
+    @include xs {
+        padding: 0;
+    }
+
+}
+
+.tourist-quote{
+
+
+    background: url(/images/Rectangle4142.png) no-repeat;
+
+    @include xs {
+        padding: 0;
+    }
+
+    @include sm {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    @include lg {
+        padding: 10% 10% 7% 10%;
+    }
+
+    &__img{
+        padding: 0;
+
+        @include sm {
+            padding-bottom:30px ;
+        }
+
+        @include lg {
+            padding: 0;
+        }
+    }
+
+    &__title{
+        font-size: 36px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        color: #e8e8e8 ;
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 10%;
+
+        @include xs {
+            padding: 10px 5px 10% 5px;
+        }
+    }
+
+    &-quote{
+        background-color: #333333;
+        padding: 50px 45px 40px 45px;
+
+        @include xs {
+            
+        }
+
+        &__title{
+            font-size: 20px;
+            letter-spacing: 1px;
+            line-height: 26px;
+            color: #e8e8e8;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 400;
+
+        }
+
+        &__text{
+            font-size: 16px;
+            line-height: 26px;
+            color: #e8e8e8;
+            font-family: 'Josefin Sans', sans-serif;
+            padding-top: 20px;
+        }
+        
+        &__icon{
+            color: #5474fd;
+        }
+    }
+}
+
+footer{
+    background-color: #232323;
+    padding: 5% 40% 3% 40%;
+    text-align: center;
+
+    @include xs {
+        padding: 10px;
+    }
+
+    @include sm {
+        padding: 5% 20% 3% 20%;
+    }
+    
+    @include lg {
+        padding: 5% 40% 3% 40%;
+    }
+}
+
+.footer{
+    &__title{
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+
+    &__subtitle{
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+}
+
+.social-media{
+    &__icon{
+        color: white;
+
+        &--blue{
+            color: #5474fd;
+        }
+    }
+}
+
+a{
+    color: white;
+}
+
+.tourist__image{
+
+    @include xs {
+        max-width: 100%;
+    }
+
+    @include md {
+        min-width: 70%;
+    }
+
+}
+
+.img-wrapper-why-us{
+    @include xs {
+        display: none;
+    }
+
+    @include sm {
+        display: none;
+    }
+    
+
+    @include lg {
+        display: block;
+    }
+}
+

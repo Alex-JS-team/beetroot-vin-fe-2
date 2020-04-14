@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div class="main__header">
+                <div class="logo header__logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="33" viewBox="0 0 65 33">
+                        <image id="logo" width="65" height="33" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAAhCAYAAACGA8YfAAAGdklEQVRogb2ZeWxWRRTFf6VADYEoUhAwKChxDTUmoiwqoAExKq0aEVwJiIDEXXEJIktUECMgiIgsFWQRgnEPGDREBEWEII3KoiFVFlGgSGVHMJOeF64z72vft8Tzz3xz3/LN3Llz7pn78srLy8kCvYB7zeMfAFP0expwpn7vBu4CLgVelO0UYBiwHJgJNJV9D3Cnfk8HmuveM4CtwD8phrsFeCCwJkDtbDwATAUamP5xOaEd0M/Y31U7Hrja2DcA5wF9jG2y2g+Bm4z9c6BrMIKTmBJYEqJWpg8C13gOcNim9iHP7hxS4DlgIfAn8Lyx7QcGA8M9BwwCbgYOBKOowkHg6cCaENlEwiOBBXao7WlsX2lyz3r3DlV7i7G9BtztOWaWVnk2UE82N+kuwF4517V/BaNJiEw5oRGwK7BWccTPwHfG5ga7TKteKNtvwFnAjcBH5t4yoI3pfwl0Ak7VRCPMEcfkBJlGQr/AUoVbDcE5VMoBlxkHOIxRO8J73jpggxzo8KCxO2IcEvxzFsg0EhwTtwysIUYDzwCLgevMVcdFDZU14uCi5nygQte2mkxzBJig346T5iliMkYmkXBVQgc4vATkew5wrH/CcIKPHfqPyAHXGgc41AWeNP03gzekiUyyw8OBJR7fAvti7n9O7YDYp6p44RfT9zONxSJgXWBNjjwXTelGQkOPzSu1R08L7qwSQg5PGNvvwHqgm2F6Hy1M3xFwD9NfCTyuxauld2WCroouF3VlSZ2Qr8n2kfciDBVLt/XudylxCVAENDP2sWpHGZuLmO+B/uqfLoV4CLjPe6/TD98Eo6sZbswlykb1xGkrgFUu69REjIV6uBQ4BmwGWuvaD9q7jsWbeM+NAx6LUX35IjOb7nqLID9T/5gcUekRsFv1S4IRpkZzcZFbpPbATuBT4C1/C9UUCUsldd3ArjAOQJK5QgP28YL61gFLJKt9ZbcA6OCNqVLbwhKw0x4XAPV1j+ObH831OppsF23ZItm3KUM5OX40GGkNTvhYni9V3yeoGWpPePZ1WtnBnj3KBoOMbaMc4/NDQYwWuQfo6/3/SKC7Jt5Zh6wIjjRfSbJ9UjnhfuAGnQQdzgXuMNdXA39LGNXxnh0m0ppkbPu1kn2l/iJE9xzz3jHbI+C4sfYQR9kMtx14Qw7aHswqBeKccKHJvavUXiQiiQ4wo9Ue1z6rI/I5IBns9uPXclSe9D8SQEsVPS4035Z9kwTVfsnxE+KTEo+ILawCXakxz6nmqJ0SPjHmS9dHjN7LHIPTQe2Y1U2KpjqhdheppXKCc/A7itY1wdU0B2sxw0tp9YMnkiEdB5ytLNNR7cXBHf/FWuB1w0lZwzrhcpGPxZWq7uQSDcTinXVCbJdQuc5SuK+p5syREex2+EkpyOKQwjPjs7q2WFutcic5IC6tpsI8iatCFVZ6a0yHJbQelWMa66xSy2SsPKXI8dU5LoqEkhgHIOX2iSIiKfJUS2yviXfwpHAS7FJqni4xVgy87z1XoPdP0n/1j0mrEdzcbgusnhNGBVdOoqPYd4iqRD6aaR+30WDapnHK9LFeRFcqweRwjnHAeknp600tYrHagWp/BV5VJoo0SbXc5rZDkbR70kFuUnmrsapDrXW8zQaRnPVXG0VDJJKcGPoDmKttgbZbK1W0UDTM0JgOy1aiSngsXCT0jLuQAkVGjmaLIyK6yV45zkex6Q+USpwoRbhbWuVlXd9pssY4tfuqcwByQjr7PRfYqpCfqdCtCWtNqX2Etqct0jQy6jJf726h4/pRqd9q4ZyQ6f5NF6t06JqrrJMUbjLzgdt1fzeteFdtT3ueKPTIcXQSsefSSUFgzS0WauDtFKpJHVBXfNNQZfgBpqTfxKx+RH47VHabaN7RjARwkXA4yY1pYo/Cfbr0RyaYL12AVn2qiHGkbPO08q3UH2MKsFF1ellSJ2yUdM0FyjTx0iwFVkvjgHIdulBqRCfEjXIMioLIAVG6rxDxJnJCqcI1GyyXaFmQI2faD6t7lSG6SYegIgmmJFepbdHCXJtGQkSyebU+kKSDg0o90/SxNJd4yhzXfXyhMvxw73OdxWZVwiqCKzGIFKOrzLxXw1dfVC9YobP+IkNUucZYSfZiQ25lGmP09XmPzgpHJdWjQ9gWHbZiS2lx8OsJribows4VUVzJyzF5tP9cvnYR49LT/wmXvdzRPO1iSSIA/wJTaXmRBCq3sQAAAABJRU5ErkJggg=="/>
+                      </svg>
+                </div>
+            </div>
+            <div class="main__main">
+                <div class="main-product">
+                    <div class="main-product__wrapper">
+                        <img class="main-product__image " src="images/Nike-SB-Stefan-Janoski-Max.png" alt="shoe">
+
+                    </div>
+                    <div class="main-product__colors">
+                        <a href="#"><svg class="main-product__colors-item main-product__colors-item" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  fill: #1f273f;
+                                }
+                              </style>
+                            </defs>
+                            <circle id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" class="cls-1" cx="6" cy="6" r="6"/>
+                          </svg>
+                          </a>
+                        <a href="#"><svg class="main-product__colors-item main-product__colors-item--white" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                            <defs>
+                              <style>
+                                .cls-2 {
+                                  fill: wheat;
+                                }
+                              </style>
+                            </defs>
+                            <circle id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" class="cls-2" cx="6" cy="6" r="6"/>
+                          </svg>
+                          </a> 
+                        <a href="#"><svg class="main-product__colors-item main-product__colors-item--red" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                            <defs>
+                              <style>
+                                .cls-3 {
+                                  fill: red;
+                                }
+                              </style>
+                            </defs>
+                            <circle id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" class="cls-3" cx="6" cy="6" r="6"/>
+                          </svg>
+                          </a>
+                          <a href="#"><svg class="main-product__colors-item main-product__colors-item--turquoise" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                            <defs>
+                              <style>
+                                .cls-4 {
+                                  fill: turquoise;
+                                }
+                              </style>
+                            </defs>
+                            <circle id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" class="cls-4" cx="6" cy="6" r="6"/>
+                          </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main__sidebar">
+                <div class="title sidebar__title"><p>Nike SB Stefan Janoski Max</p></div>
+                <div class="subtitle sidebar__subtitle"><p>Unisex Skateboardind Shoe</p></div>
+                <div class="sidebar__stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="12" viewBox="0 0 65 12">
+                        <image id="Vector_Smart_Object_copy_4" data-name="Vector Smart Object copy 4" width="65" height="12" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAAMCAYAAAA9MdD3AAAB5klEQVRIiaWWPUtcQRSGnxGLLRKCYLwQVAgIUdIEYj4gIIsowdJGyEcRCOY35CdIKuuYFBFifkOqXARBEDtLIZAisHZisRcsjoye7I535m52ji8cduac95mPyzCzTkSoqyqL55raj4rNsjCkuFa70ys65yJARO5r7Xeils2MRu4rva0vbAhZGIzcU/2NNjRAjcxIPVGVhf8waxpNH6kuC4OFExG/5sc+tH1jJjXIMnBXYzmqpmVhrHPNAbc05qJqWgOZ0aosXgMTQW41aH8EHgT9E2AHsDAMy1Vlccm12p0dEXkC3A58j4L2SxEpgv4ZcJDLuO6viXvAD2CBwdoFXgF/AQtDLtdqdzx3B3gPzESu6zoGvgKnucyITrQIbESWvjbU828zFiaL03X529xvahP4GTn78rVN9WYz157Iqiw+A+s18xbwIRqiLwvDIK7piRSRN8CLGrPnnPseeLKZ+sU4Hy01nbsp0+RJ5UJNR5l0LovpfYSqLMaDC+SLBpobj4a5koXBwomIv9kntbun4TWptUjDMuFJWAK6wDs9puva7motJQtjnWsWOAe2/VHW47ytudnIncGEf1CmgGetdudInyivb8AhsNIwySUDHAW5/zFWbgz45JzrXbTOuX0R+QM8NDPABfq90SUWdNWJAAAAAElFTkSuQmCC"/>
+                      </svg>                </div>
+                <div class="slidebar__select">
+                    <select name="Size" id="Size">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                    </select>
+                    <select name="Qty" id="Qty">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                    </select>
+                    <div class="slidebar__button">
+                    <button class="slidebar__button-item">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -11,14 +11,19 @@
     list-style: none;
 }
 .content{
-    height: 10em;
+    /* height: 10em;
     position: relative;
+} */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
 }
 .conten{
-    margin: 0;;
+    /* margin: 0;;
     position: absolute;
     top: 250%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) */
 }

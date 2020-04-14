@@ -1,0 +1,58 @@
+.outer {
+    background-color: #70bfff;
+    min-height: 100vh;
+}
+.inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 180px;
+}
+.items {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+.item_txt {
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #9d9d9d;
+    color: #262626;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 700;
+}
+.item_svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-img {
+    position: relative;
+    top: -79px;
+    right: 0px;
+}
+.img_txt {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.img-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.img_txt {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}

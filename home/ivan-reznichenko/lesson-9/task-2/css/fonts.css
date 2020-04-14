@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url(../fonts/quicksandbold.ttf);
+    src: url(../fonts/quicksandbold.woff);
+    src: url(../fonts/quicksandbold.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url(../fonts/quicksandregular.ttf);
+    src: url(../fonts/quicksandregular.woff);
+    src: url(../fonts/quicksandregular.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+

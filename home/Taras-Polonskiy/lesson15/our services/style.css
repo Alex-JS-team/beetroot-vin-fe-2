@@ -1,0 +1,67 @@
+.bg-main{
+	background:#70bfff;
+	background-size:cover;
+}
+
+.main-grid{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.menu{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, 1fr);
+	margin: 0 auto;
+	gap:20px;
+	padding: 179px 0 151px 0;
+}
+
+.menu__item{
+  display:grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 1fr;
+  font-size: 20px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+  line-height: 1.35;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 100px;
+}
+
+.tomato{
+background: url(img/tomat.png) no-repeat;
+margin-top:100px;
+}
+
+.tomato__text{
+  font-size: 90px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.3;
+  margin: 233px auto 0 auto;
+}
+
+.line{
+	background-color: rgb(157, 157, 157);
+	width: 1px;
+	height: 100px;
+}
+
+.item__img{
+	align-self: center;
+	margin: 0 auto;
+}
+
+.item__text{
+	text-align:center;
+	align-self: center;
+	padding-left: 30px;
+}
+
+	

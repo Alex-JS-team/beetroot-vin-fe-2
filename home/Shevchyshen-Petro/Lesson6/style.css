@@ -1,0 +1,95 @@
+* {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.page {
+    width: 1500px;
+    height: 864px;
+    background-color: #b07cf7;
+}
+
+.title {
+    padding-top: 100px;
+}
+
+.title h1 {
+    width: 190px;
+    height: 86px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.title p {
+    width: 563px;
+    height: 66px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.blocks {
+    padding-top: 47px;
+    display: flex;
+}
+
+.Block {
+    position: relative;
+}
+.Block::before {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    content: '10 NOV';
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 29px;
+    left: 30px;
+    top: 30px;
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.Block::after {
+    position: absolute;
+    width: 370px;
+    height: 106px;
+    top: 65%;
+    right: 0;
+    content: 'Pesticides & Food: What You Need to Know';
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.button {
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.button button {
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: #f72b3b;
+    cursor: pointer;
+}
+
+.button button p {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    text-transform: uppercase;
+}

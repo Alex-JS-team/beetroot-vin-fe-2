@@ -1,0 +1,100 @@
+bogy{
+    margin:0;
+}
+.container{
+    background: rgb(226, 231, 236);
+}
+
+.flex_area{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 0 200px 0 250px;
+}
+
+.block_1{
+  background: linear-gradient(to top, rgba(0, 0, 0, .80) 10%, rgba(255, 255, 255, .0) 55%), url(img/block_1.png);
+  background-size: cover;
+  width: 540px;
+  height: 380px;
+  margin: 20px 0 0 0;
+}
+
+.text_1{
+    font-size: 13px;
+    font-family: "HansKendrick";
+    color: rgba(129, 129, 129, 1);
+    text-transform: uppercase;
+    line-height: 2.308;
+    margin:280px 0 0 50px;
+}
+
+.text_2{
+  font-size: 21px;
+  font-family: "HansKendrick";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 0 120px 0 50px;
+}
+
+.block_2, .block_2_1, .block_2_2{
+  background: rgb(255, 255, 255);
+  width: 260px;
+  height: 380px;
+  margin: 20px 0 0 10px;
+}
+
+.block_2_1{
+  margin: 20px 15px 0 0;
+}
+
+.block_2_2{
+  margin: 20px 15px 0 0;
+}
+
+.block_2_img{
+  width: 260px;
+}
+
+.text_1_block, .text_1_block_2{
+  font-size: 13px;
+  font-family: "HansKendrick";
+  color: rgb(129, 129, 129);
+  text-transform: uppercase;
+  line-height: 2.308;
+  margin: 10px 0 0 10px;
+}
+
+.text_1_block_2{
+    opacity:0;
+}
+
+.text_2_block{
+  font-size: 15px;
+  font-family: "HansKendrick";
+  color: rgb(29, 29, 29);
+  text-transform: uppercase;
+  line-height: 1.364;
+  font-weight: bold;
+  margin: 10px 30px 0 10px;
+}
+
+.img_small{
+  width: 34px;
+  height: 34px;
+  margin: 30px 0 0 10px;
+}
+
+.text_footer{
+  font-size: 13px;
+  font-family: "HansKendrick";
+  color: rgb(153, 165, 176);
+  text-transform: uppercase;
+  line-height: 2.308;
+  text-align: center;
+}
+
+.img_footer{
+    margin: 0 5px 0 0;
+}
+
